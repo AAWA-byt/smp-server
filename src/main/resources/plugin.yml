@@ -5,3 +5,8 @@ api-version: 1.17
 authors: [ AAWA ]
 description: minipixel smp plugin
 website: minipixel.online
+
+commands:
+  afk:
+    permission: minipixel.smp.commands.afk
+    description: AFK command for the smp server

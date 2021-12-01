@@ -1,5 +1,6 @@
 package online.minipixel.smp;
 
+import online.minipixel.smp.Commands.AFKCommand;
 import online.minipixel.smp.Inventorys.Menu;
 import online.minipixel.smp.MessageAPI.Prefix;
 import org.bukkit.Bukkit;
@@ -47,7 +48,7 @@ public final class Main extends JavaPlugin {
             log("");
             log(ChatColor.RED + "Die Commands werden geladen...");
             //Commands
-
+            getCommand("afk").setExecutor(new AFKCommand());
 
             log(ChatColor.GREEN + "Die Commands wurden geladen!");
             log("");
