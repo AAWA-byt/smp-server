@@ -3,6 +3,7 @@ package online.minipixel.smp;
 import online.minipixel.smp.Commands.AFKCommand;
 import online.minipixel.smp.Commands.HelpCommand;
 import online.minipixel.smp.Commands.MenuCommand;
+import online.minipixel.smp.Inventorys.Help;
 import online.minipixel.smp.Inventorys.Menu;
 import online.minipixel.smp.Listener.*;
 import online.minipixel.smp.MessageAPI.Prefix;
@@ -37,6 +38,9 @@ public final class Main extends JavaPlugin {
 
         menu = Bukkit.createInventory(null, 9*1, "§8§lMenü"); //created main menu for the whole server
         Menu.open_main_menu(); //initialize main menu
+
+        help = Bukkit.createInventory(null, 9*1, "§8§lHelp Menü");
+        Help.open_help_menu();
 
         //PlaceholderAPI
         log(ChatColor.RED + "PlaceholderAPI wird geladen...");
