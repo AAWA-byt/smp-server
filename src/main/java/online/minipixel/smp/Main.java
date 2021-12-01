@@ -16,6 +16,7 @@ public final class Main extends JavaPlugin {
     public static Main INSTANCE;
 
     private static Inventory menu;
+    private static Inventory help;
 
     @Override
     public void onEnable() {
