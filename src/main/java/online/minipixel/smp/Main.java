@@ -95,4 +95,5 @@ public final class Main extends JavaPlugin {
 
     public static Main getINSTANCE() { return INSTANCE; }
     public static Inventory getMenu() {return menu;}
+    public static Inventory getHelp() {return help;}
 }
