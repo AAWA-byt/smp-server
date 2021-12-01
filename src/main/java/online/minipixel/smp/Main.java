@@ -3,11 +3,14 @@ package online.minipixel.smp;
 import online.minipixel.smp.MessageAPI.Prefix;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.inventory.Inventory;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Main extends JavaPlugin {
 
     public static Main INSTANCE;
+
+    private static Inventory menu;
 
     @Override
     public void onEnable() {
@@ -25,6 +28,8 @@ public final class Main extends JavaPlugin {
         INSTANCE = this;
 
         //Inventorys
+
+        menu = Bukkit.createInventory(null, 9*1, "§8§lMenü");
 
         //PlaceholderAPI
         log(ChatColor.RED + "PlaceholderAPI wird geladen...");
@@ -75,4 +80,5 @@ public final class Main extends JavaPlugin {
     }
 
     public static Main getINSTANCE() { return INSTANCE; }
+    public static Inventory getMenu() {return menu;}
 }
