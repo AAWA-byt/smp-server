@@ -1,17 +1,78 @@
 package online.minipixel.smp;
 
+import online.minipixel.smp.MessageAPI.Prefix;
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Main extends JavaPlugin {
 
+    public static Main INSTANCE;
+
     @Override
     public void onEnable() {
         // Plugin startup logic
+
+        log("--------------------------------------");
+        log(ChatColor.RED + "Das Plugin wird geladen...");
+        log("--------------------------------------");
+        log("Developer: " + ChatColor.GREEN + "AAWA");
+        log("E-Mail: " + ChatColor.GREEN + "admin.aaron@minipixel.online");
+        log("Website: " + ChatColor.GREEN + "minipixel.online");
+        log("MC-Server: " + ChatColor.GREEN + "minipixel.online");
+        log("--------------------------------------");
+
+        INSTANCE = this;
+
+        //Inventorys
+
+        //PlaceholderAPI
+        log(ChatColor.RED + "PlaceholderAPI wird geladen...");
+        log("");
+
+        if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
+
+            log(ChatColor.RED + "Die Listener werden geladen...");
+            //Listener
+
+
+            log(ChatColor.GREEN + "Die Listener wurden geladen!");
+            log("");
+            log(ChatColor.RED + "Die Commands werden geladen...");
+            //Commands
+
+
+            log(ChatColor.GREEN + "Die Commands wurden geladen!");
+            log("");
+
+        } else {
+            /*
+             * We inform about the fact that PlaceholderAPI isn't installed and 101then
+             * disable this plugin to prevent issues.
+             */
+            System.out.println("Could not find PlaceholderAPI! This plugin is required.");
+            Bukkit.getPluginManager().disablePlugin(this);
+        }
+        log(ChatColor.GREEN + "PlaceholderAPI wurde geladen...");
+        log("");
+        log("");
+        log("--------------------------------------");
+        log(ChatColor.GREEN + "Das Plugin wurde geladen!");
+        log("--------------------------------------");
+
 
     }
 
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        log(ChatColor.RED + "Das Plugin ist deaktiviert!");
     }
+
+    public void log(String text) {
+
+        Bukkit.getConsoleSender().sendMessage(Prefix.System_Prefix + text);
+    }
+
+    public static Main getINSTANCE() { return INSTANCE; }
 }
