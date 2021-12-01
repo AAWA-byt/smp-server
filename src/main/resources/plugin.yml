@@ -14,3 +14,7 @@ commands:
   help:
     permission: minipixel.smp.commands.help
     description: help command for smp server
+
+  menu:
+    permission: minipixel.smp.commands.menu
+    description: menu command for smp server
