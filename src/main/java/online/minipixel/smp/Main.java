@@ -4,6 +4,7 @@ import online.minipixel.smp.Commands.AFKCommand;
 import online.minipixel.smp.Commands.HelpCommand;
 import online.minipixel.smp.Commands.MenuCommand;
 import online.minipixel.smp.Inventorys.Menu;
+import online.minipixel.smp.Listener.*;
 import online.minipixel.smp.MessageAPI.Prefix;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -44,7 +45,12 @@ public final class Main extends JavaPlugin {
 
             log(ChatColor.RED + "Die Listener werden geladen...");
             //Listener
-
+            Bukkit.getPluginManager().registerEvents(new ChatListener(), this);
+            Bukkit.getPluginManager().registerEvents(new ConnectionListener(), this);
+            Bukkit.getPluginManager().registerEvents(new DeathListener(), this);
+            Bukkit.getPluginManager().registerEvents(new InventoryListener(), this);
+            Bukkit.getPluginManager().registerEvents(new JoinListener(), this);
+            Bukkit.getPluginManager().registerEvents(new QuitListener(), this);
 
             log(ChatColor.GREEN + "Die Listener wurden geladen!");
             log("");
