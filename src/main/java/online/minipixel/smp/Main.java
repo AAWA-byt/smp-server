@@ -6,6 +6,7 @@ import online.minipixel.smp.Commands.MenuCommand;
 import online.minipixel.smp.Inventorys.Help;
 import online.minipixel.smp.Inventorys.Menu;
 import online.minipixel.smp.Inventorys.Team;
+import online.minipixel.smp.Inventorys.Vip;
 import online.minipixel.smp.Listener.*;
 import online.minipixel.smp.MessageAPI.Prefix;
 import org.bukkit.Bukkit;
@@ -20,6 +21,7 @@ public final class Main extends JavaPlugin {
     private static Inventory menu;
     private static Inventory help;
     private static Inventory team;
+    private static Inventory vip;
 
     @Override
     public void onEnable() {
@@ -46,6 +48,9 @@ public final class Main extends JavaPlugin {
 
         team = Bukkit.createInventory(null, 9*1, "§8§lTeam Menü");
         Team.open_team_menu();
+
+        vip = Bukkit.createInventory(null, 9*1, "§8§lVip Menü");
+        Vip.open_vip_menu();
 
         //PlaceholderAPI
         log(ChatColor.RED + "PlaceholderAPI wird geladen...");
@@ -106,4 +111,5 @@ public final class Main extends JavaPlugin {
     public static Inventory getMenu() {return menu;}
     public static Inventory getHelp() {return help;}
     public static Inventory getTeam() {return team;}
+    public static Inventory getVip() {return vip;}
 }
