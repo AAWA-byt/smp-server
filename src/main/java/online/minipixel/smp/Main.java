@@ -9,6 +9,7 @@ import online.minipixel.smp.Inventorys.Team;
 import online.minipixel.smp.Inventorys.Vip;
 import online.minipixel.smp.Listener.*;
 import online.minipixel.smp.MessageAPI.Prefix;
+import online.minipixel.smp.Tablist.TablistManager;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.inventory.Inventory;
@@ -22,6 +23,8 @@ public final class Main extends JavaPlugin {
     private static Inventory help;
     private static Inventory team;
     private static Inventory vip;
+
+    private TablistManager tablistManager;
 
     @Override
     public void onEnable() {
@@ -37,6 +40,7 @@ public final class Main extends JavaPlugin {
         log("--------------------------------------");
 
         INSTANCE = this;
+        tablistManager = new TablistManager();
 
         //Inventorys
 
@@ -112,4 +116,5 @@ public final class Main extends JavaPlugin {
     public static Inventory getHelp() {return help;}
     public static Inventory getTeam() {return team;}
     public static Inventory getVip() {return vip;}
+    public TablistManager getTablistManager() { return tablistManager; }
 }
