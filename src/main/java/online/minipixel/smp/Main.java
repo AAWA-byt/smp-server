@@ -1,5 +1,7 @@
 package online.minipixel.smp;
 
+import online.minipixel.smp.Backpack.BackpackManager;
+import online.minipixel.smp.Backpack.ConfigBackpacks;
 import online.minipixel.smp.Commands.AFKCommand;
 import online.minipixel.smp.Commands.HelpCommand;
 import online.minipixel.smp.Commands.MenuCommand;
@@ -26,6 +28,14 @@ public final class Main extends JavaPlugin {
 
     private TablistManager tablistManager;
 
+    private ConfigBackpacks configBackpacks;
+    private BackpackManager backpackManager;
+
+    @Override
+    public void onLoad() {
+        configBackpacks = new ConfigBackpacks();
+    }
+
     @Override
     public void onEnable() {
         // Plugin startup logic
@@ -41,6 +51,7 @@ public final class Main extends JavaPlugin {
 
         INSTANCE = this;
         tablistManager = new TablistManager();
+        backpackManager = new BackpackManager();
 
         //Inventorys
 
@@ -103,6 +114,8 @@ public final class Main extends JavaPlugin {
     @Override
     public void onDisable() {
         // Plugin shutdown logic
+        backpackManager.save();
+        configBackpacks.save();
         log(ChatColor.RED + "Das Plugin ist deaktiviert!");
     }
 
@@ -117,4 +130,6 @@ public final class Main extends JavaPlugin {
     public static Inventory getTeam() {return team;}
     public static Inventory getVip() {return vip;}
     public TablistManager getTablistManager() { return tablistManager; }
+    public ConfigBackpacks getConfiguration() {return configBackpacks;}
+    public BackpackManager getBackpackManager() {return backpackManager;}
 }
