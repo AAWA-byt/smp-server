@@ -9,6 +9,8 @@ import org.bukkit.scheduler.BukkitRunnable;
 public class DefaultScoreboard extends ScoreboardBuilder {
 
     private int socialId;
+    public static String player_on_network = "%bungee_total%";
+    public static String player_play_time = "%%";
 
     public DefaultScoreboard(Player player, String displayName) {
         super(player, "§7§l<< §4§lMiniPixel §7§l>>");
@@ -19,6 +21,9 @@ public class DefaultScoreboard extends ScoreboardBuilder {
 
     @Override
     public void createScoreboard() {
+
+        player_on_network = PlaceholderAPI.setPlaceholders(player, player_on_network);
+        player_play_time = PlaceholderAPI.setPlaceholders(player, player_play_time);
 
         setScore("§cminipixel.online", 0);
         setScore("§d", 1);
