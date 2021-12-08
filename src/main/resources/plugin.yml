@@ -19,3 +19,10 @@ commands:
   menu:
     permission: minipixel.smp.commands.menu
     description: menu command for smp server
+
+  backpack:
+    permission: minipixel.smp.commands.backpack
+    description: backpack command for smp server
+    aliases:
+      - bp
+      - b
