@@ -2,10 +2,7 @@ package online.minipixel.smp;
 
 import online.minipixel.smp.Backpack.BackpackManager;
 import online.minipixel.smp.Backpack.ConfigBackpacks;
-import online.minipixel.smp.Commands.AFKCommand;
-import online.minipixel.smp.Commands.BackpackCommand;
-import online.minipixel.smp.Commands.HelpCommand;
-import online.minipixel.smp.Commands.MenuCommand;
+import online.minipixel.smp.Commands.*;
 import online.minipixel.smp.Inventorys.Help;
 import online.minipixel.smp.Inventorys.Menu;
 import online.minipixel.smp.Inventorys.Team;
@@ -91,6 +88,7 @@ public final class Main extends JavaPlugin {
             getCommand("help").setExecutor(new HelpCommand());
             getCommand("menu").setExecutor(new MenuCommand());
             getCommand("backpack").setExecutor(new BackpackCommand());
+            getCommand("vip").setExecutor(new VIPCommand());
 
             log(ChatColor.GREEN + "Die Commands wurden geladen!");
             log("");
