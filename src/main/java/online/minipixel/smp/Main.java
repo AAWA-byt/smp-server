@@ -39,7 +39,7 @@ public final class Main extends JavaPlugin {
         // Plugin startup logic
 
         log("--------------------------------------");
-        log(ChatColor.RED + "Das Plugin wird geladen...");
+        log(ChatColor.BLUE + "" + ChatColor.BOLD + "LobbySystem " + ChatColor.GRAY + "wird geladen...");
         log("--------------------------------------");
         log("Developer: " + ChatColor.GREEN + "AAWA");
         log("E-Mail: " + ChatColor.GREEN + "admin.aaron@minipixel.online");
@@ -54,7 +54,7 @@ public final class Main extends JavaPlugin {
         //Inventorys
 
         menu = Bukkit.createInventory(null, 9*1, "§8§lMenü"); //created main menu for the whole server
-        Menu.open_main_menu(); //initialize main menu
+        Menu.open_main_menu();
 
         help = Bukkit.createInventory(null, 9*1, "§8§lHelp Menü");
         Help.open_help_menu();
