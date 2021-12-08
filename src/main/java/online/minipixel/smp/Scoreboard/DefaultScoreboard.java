@@ -1,5 +1,6 @@
 package online.minipixel.smp.Scoreboard;
 
+import me.clip.placeholderapi.PlaceholderAPI;
 import online.minipixel.smp.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.Statistic;
