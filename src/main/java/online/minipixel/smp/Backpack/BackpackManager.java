@@ -1,5 +1,6 @@
 package online.minipixel.smp.Backpack;
 
+import online.minipixel.smp.Configs.ConfigBackpacks;
 import online.minipixel.smp.Main;
 
 import java.io.IOException;

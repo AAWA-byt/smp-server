@@ -1,7 +1,7 @@
 package online.minipixel.smp;
 
 import online.minipixel.smp.Backpack.BackpackManager;
-import online.minipixel.smp.Backpack.ConfigBackpacks;
+import online.minipixel.smp.Configs.ConfigBackpacks;
 import online.minipixel.smp.Commands.*;
 import online.minipixel.smp.Inventorys.Help;
 import online.minipixel.smp.Inventorys.Menu;

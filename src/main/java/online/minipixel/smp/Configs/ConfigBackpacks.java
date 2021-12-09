@@ -1,4 +1,4 @@
-package online.minipixel.smp.Backpack;
+package online.minipixel.smp.Configs;
 
 import org.bukkit.configuration.file.YamlConfiguration;
 
