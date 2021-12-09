@@ -30,3 +30,7 @@ commands:
   vip:
     permission: minipixel.smp.commands.vip
     description: vip command for the rang vip, vip+, builder, supporter, developer and moderator
+
+  team:
+    permission: minipixel.smp.commands.team
+    description: team command for the rang builder+
