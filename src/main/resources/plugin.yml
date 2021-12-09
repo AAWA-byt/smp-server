@@ -34,3 +34,7 @@ commands:
   team:
     permission: minipixel.smp.commands.team
     description: team command for the rang builder+
+
+  warp:
+    permission: minipixel.smp.commands.warp
+    description: command for the smp warp system
