@@ -11,6 +11,7 @@ public class HelpCommand implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
         if (!(sender instanceof Player)) {
+            //TODO: message for console (help command)
             sender.sendMessage("");
             return true;
         }
