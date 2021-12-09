@@ -90,6 +90,7 @@ public final class Main extends JavaPlugin {
             getCommand("menu").setExecutor(new MenuCommand());
             getCommand("backpack").setExecutor(new BackpackCommand());
             getCommand("vip").setExecutor(new VIPCommand());
+            getCommand("team").setExecutor(new TeamCommand());
 
             log(ChatColor.GREEN + "Die Commands wurden geladen!");
             log("");
