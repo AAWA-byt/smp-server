@@ -104,7 +104,7 @@ public final class Main extends JavaPlugin {
              * We inform about the fact that PlaceholderAPI isn't installed and 101then
              * disable this plugin to prevent issues.
              */
-            System.out.println("Could not find PlaceholderAPI! This plugin is required.");
+            log("Could not find PlaceholderAPI! This plugin is required.");
             Bukkit.getPluginManager().disablePlugin(this);
         }
         log(ChatColor.GREEN + "PlaceholderAPI wurde geladen...");
