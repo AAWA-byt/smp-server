@@ -13,7 +13,7 @@ public class MenuCommand implements CommandExecutor {
 
         if (!(sender instanceof Player)) {
             sender.sendMessage(Prefix.System_Prefix + "§cDu bist kein Spieler!");
-            return true;
+            return false;
         }
 
         Player player = (Player) sender;
