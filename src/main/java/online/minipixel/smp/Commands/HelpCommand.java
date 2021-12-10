@@ -13,7 +13,7 @@ public class HelpCommand implements CommandExecutor {
         if (!(sender instanceof Player)) {
             //TODO: message for console (help command)
             sender.sendMessage("");
-            return true;
+            return false;
         }
 
         Player player = (Player) sender;
