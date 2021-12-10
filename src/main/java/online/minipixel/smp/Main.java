@@ -3,6 +3,7 @@ package online.minipixel.smp;
 import online.minipixel.smp.Backpack.BackpackManager;
 import online.minipixel.smp.Configs.ConfigBackpacks;
 import online.minipixel.smp.Commands.*;
+import online.minipixel.smp.Configs.ConfigWarps;
 import online.minipixel.smp.Inventorys.Help;
 import online.minipixel.smp.Inventorys.Menu;
 import online.minipixel.smp.Inventorys.Team;
@@ -18,6 +19,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class Main extends JavaPlugin {
 
     public static Main INSTANCE;
+    private static ConfigWarps warps;
 
     private static Inventory menu;
     private static Inventory help;
@@ -50,6 +52,7 @@ public final class Main extends JavaPlugin {
         INSTANCE = this;
         tablistManager = new TablistManager();
         backpackManager = new BackpackManager();
+        warps = new ConfigWarps("warps.yml", getDataFolder());
 
         //Inventorys
 
@@ -135,4 +138,5 @@ public final class Main extends JavaPlugin {
     public TablistManager getTablistManager() { return tablistManager; }
     public ConfigBackpacks getConfiguration() {return configBackpacks;}
     public BackpackManager getBackpackManager() {return backpackManager;}
+    public static ConfigWarps getWarps() {return warps;}
 }
