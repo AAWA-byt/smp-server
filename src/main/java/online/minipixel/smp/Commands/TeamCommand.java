@@ -13,6 +13,7 @@ public class TeamCommand implements CommandExecutor {
         if (!(sender instanceof Player)) {
             //TODO: message for console (team command)
             sender.sendMessage("");
+            return false;
         }
 
         Player player = (Player) sender;
