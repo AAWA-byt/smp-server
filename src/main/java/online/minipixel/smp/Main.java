@@ -4,6 +4,7 @@ import online.minipixel.smp.Backpack.BackpackManager;
 import online.minipixel.smp.Configs.ConfigBackpacks;
 import online.minipixel.smp.Commands.*;
 import online.minipixel.smp.Configs.ConfigWarps;
+import online.minipixel.smp.CustomItems.ItemManager;
 import online.minipixel.smp.Inventorys.Help;
 import online.minipixel.smp.Inventorys.Menu;
 import online.minipixel.smp.Inventorys.Team;
@@ -53,6 +54,7 @@ public final class Main extends JavaPlugin {
         tablistManager = new TablistManager();
         backpackManager = new BackpackManager();
         warps = new ConfigWarps("warps.yml", getDataFolder());
+        ItemManager.initItems();
 
         //Inventorys
 
