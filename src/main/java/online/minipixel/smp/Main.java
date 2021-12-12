@@ -77,6 +77,8 @@ public final class Main extends JavaPlugin {
         vip = Bukkit.createInventory(null, 9*1, "§8§lVip Menü");
         Vip.open_vip_menu();
 
+        teleporter = Bukkit.createInventory(null, 9*5, "§8§lTeleporter");
+
         //PlaceholderAPI
         log(ChatColor.RED + "PlaceholderAPI wird geladen...");
         log("");
