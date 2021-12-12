@@ -14,8 +14,14 @@ import online.minipixel.smp.MessageAPI.Prefix;
 import online.minipixel.smp.Tablist.TablistManager;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.Material;
+import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.SkullMeta;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.Arrays;
 
 public final class Main extends JavaPlugin {
 
@@ -142,4 +148,16 @@ public final class Main extends JavaPlugin {
     public ConfigBackpacks getConfiguration() {return configBackpacks;}
     public BackpackManager getBackpackManager() {return backpackManager;}
     public static ConfigWarps getWarps() {return warps;}
+
+    public ItemStack getItem(Player player) {
+        ItemStack itemStack = new ItemStack(Material.PLAYER_HEAD);
+        SkullMeta skullMeta = (SkullMeta) itemStack.getItemMeta();
+        skullMeta.setOwningPlayer(Bukkit.getOfflinePlayer(player.getUniqueId()));
+        skullMeta.setDisplayName("§a" + player.getName());
+        skullMeta.setLocalizedName(player.getName());
+        skullMeta.setLore(Arrays.asList("§7Klicke um dich zu diesem Spieler zu teleportieren!"));
+        itemStack.setItemMeta(skullMeta);
+
+        return itemStack;
+    }
 }
