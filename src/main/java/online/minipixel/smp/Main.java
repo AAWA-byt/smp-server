@@ -32,6 +32,7 @@ public final class Main extends JavaPlugin {
     private static Inventory help;
     private static Inventory team;
     private static Inventory vip;
+    private static Inventory teleporter;
 
     private TablistManager tablistManager;
 
@@ -148,6 +149,7 @@ public final class Main extends JavaPlugin {
     public ConfigBackpacks getConfiguration() {return configBackpacks;}
     public BackpackManager getBackpackManager() {return backpackManager;}
     public static ConfigWarps getWarps() {return warps;}
+    public static Inventory getTeleporter() {return teleporter;}
 
     public ItemStack getItem(Player player) {
         ItemStack itemStack = new ItemStack(Material.PLAYER_HEAD);
