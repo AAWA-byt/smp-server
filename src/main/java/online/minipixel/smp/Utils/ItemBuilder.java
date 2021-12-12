@@ -20,7 +20,7 @@ public class ItemBuilder {
         itemMeta.setDisplayName(s);
         return this;
     }
-    public ItemBuilder addEnchantment(Enchantment ent, int level) {
+    public ItemBuilder addEnchantment(Enchantment ent, int level, boolean b) {
         itemMeta.addEnchant(ent, level, true);
         return this;
 
