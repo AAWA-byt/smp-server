@@ -19,4 +19,9 @@ public class ClickListener implements Listener {
             }
         }
     }
+
+    @EventHandler
+    public void onClickMenu(InventoryClickEvent e) {
+
+    }
 }
