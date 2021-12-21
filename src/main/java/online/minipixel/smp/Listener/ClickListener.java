@@ -35,6 +35,11 @@ public class ClickListener implements Listener {
                   player.closeInventory();
                   player.updateInventory();
                   player.openInventory(Main.getTeleporter());
+
+              } else if (e.getCurrentItem().equals(Material.CHEST)) {
+                  player.closeInventory();
+                  player.updateInventory();
+                  player.openInventory(Main.getShop());
               }
 
             }
