@@ -1,6 +1,9 @@
 package online.minipixel.smp.Listener;
 
+import online.minipixel.smp.Main;
 import org.bukkit.Bukkit;
+import org.bukkit.Material;
+import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
@@ -22,6 +25,19 @@ public class ClickListener implements Listener {
 
     @EventHandler
     public void onClickMenu(InventoryClickEvent e) {
+        Player player = (Player) e.getWhoClicked();
 
+        if (e.getView().getTitle().equals("§8§lMenü")) {
+            e.setCancelled(true);
+            if (e.getCurrentItem() != null) {
+
+              if (e.getCurrentItem().equals(Material.COMPASS)) {
+                  player.closeInventory();
+                  player.updateInventory();
+                  player.openInventory(Main.getTeleporter());
+              }
+
+            }
+        }
     }
 }
