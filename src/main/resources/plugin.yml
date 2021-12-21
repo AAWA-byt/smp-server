@@ -38,7 +38,3 @@ commands:
   warp:
     permission: minipixel.smp.commands.warp
     description: command for the smp warp system
-
-  jda:
-    permission: minipixel.smp.commands.jda
-    description: command for the smp discord bot
