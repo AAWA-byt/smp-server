@@ -94,7 +94,6 @@ public final class Main extends JavaPlugin {
             Bukkit.getPluginManager().registerEvents(new JoinListener(), this);
             Bukkit.getPluginManager().registerEvents(new QuitListener(), this);
             Bukkit.getPluginManager().registerEvents(new ClickListener(), this);
-            Bukkit.getPluginManager().registerEvents(new RespawnListener(), this);
 
             log(ChatColor.GREEN + "Die Listener wurden geladen!");
             log("");
