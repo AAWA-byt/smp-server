@@ -106,7 +106,6 @@ public final class Main extends JavaPlugin {
             getCommand("vip").setExecutor(new VIPCommand());
             getCommand("team").setExecutor(new TeamCommand());
             getCommand("warp").setExecutor(new WarpCommand());
-            getCommand("jda").setExecutor(new DiscordBotCommand());
 
             log(ChatColor.GREEN + "Die Commands wurden geladen!");
             log("");
