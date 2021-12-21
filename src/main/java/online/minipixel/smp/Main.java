@@ -32,6 +32,7 @@ public final class Main extends JavaPlugin {
     private static Inventory help;
     private static Inventory team;
     private static Inventory vip;
+    private static Inventory shop;
     private static Inventory teleporter;
 
     private TablistManager tablistManager;
@@ -78,6 +79,8 @@ public final class Main extends JavaPlugin {
         Vip.open_vip_menu();
 
         teleporter = Bukkit.createInventory(null, 9*5, "§8§lTeleporter");
+
+        shop = Bukkit.createInventory(null, 9*5, "");
 
         //PlaceholderAPI
         log(ChatColor.RED + "PlaceholderAPI wird geladen...");
@@ -151,6 +154,7 @@ public final class Main extends JavaPlugin {
     public BackpackManager getBackpackManager() {return backpackManager;}
     public static ConfigWarps getWarps() {return warps;}
     public static Inventory getTeleporter() {return teleporter;}
+    public static Inventory getShop() {return shop;}
 
     public ItemStack getItem(Player player) {
         ItemStack itemStack = new ItemStack(Material.PLAYER_HEAD);
