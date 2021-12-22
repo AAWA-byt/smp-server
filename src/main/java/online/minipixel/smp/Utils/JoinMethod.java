@@ -1,4 +1,4 @@
-package online.minipixel.smp.MessageAPI;
+package online.minipixel.smp.Utils;
 
 import org.bukkit.entity.Player;
 
