@@ -16,13 +16,16 @@ public class Menu {
         Main.getMenu().setItem(0, new ItemBuilder(Material.COMPASS, 1).setDisplayname("§9§lTeleporter §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
-        Main.getMenu().setItem(1, new ItemBuilder(Material.CHEST, 1).setDisplayname("§6§lShop §7(Linksklick)")
+        Main.getMenu().setItem(1, new ItemBuilder(Material.DIAMOND, 1).setDisplayname("§6§lLotterie §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
-        Main.getMenu().setItem(2, new ItemBuilder(Material.SLIME_BALL, 1).setDisplayname("§c§lLobby §7(Linsklick)")
+        Main.getMenu().setItem(2, new ItemBuilder(Material.CHEST, 1).setDisplayname("§6§lShop §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
-        Main.getMenu().setItem(3, new ItemBuilder(Material.CRAFTING_TABLE, 1).setDisplayname("§a§lCustom Crafting Rezepte §7(Linksklick)")
+        Main.getMenu().setItem(3, new ItemBuilder(Material.SLIME_BALL, 1).setDisplayname("§c§lLobby §7(Linsklick)")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
+        Main.getMenu().setItem(4, new ItemBuilder(Material.CRAFTING_TABLE, 1).setDisplayname("§a§lCustom Crafting Rezepte §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
     }
 }
