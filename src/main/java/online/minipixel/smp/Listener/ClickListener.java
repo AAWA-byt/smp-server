@@ -1,5 +1,6 @@
 package online.minipixel.smp.Listener;
 
+import online.minipixel.smp.GambleSystem.Gamble;
 import online.minipixel.smp.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -35,6 +36,11 @@ public class ClickListener implements Listener {
                   player.closeInventory();
                   player.updateInventory();
                   player.openInventory(Main.getTeleporter());
+
+              } else if (e.getCurrentItem().equals(Material.DIAMOND)) {
+                  player.closeInventory();
+                  player.updateInventory();
+                  new Gamble().start(player);
 
               } else if (e.getCurrentItem().equals(Material.CHEST)) {
                   player.closeInventory();
