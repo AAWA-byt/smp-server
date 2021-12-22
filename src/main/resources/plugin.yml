@@ -38,3 +38,9 @@ commands:
   warp:
     permission: minipixel.smp.commands.warp
     description: command for the smp warp system
+
+  enderchest:
+    permission: minipixel.smp.commands.ec
+    description: command to open the enderchest
+    aliases:
+      - ec
