@@ -1,7 +1,7 @@
 package online.minipixel.smp.Listener;
 
 import online.minipixel.smp.Main;
-import online.minipixel.smp.MessageAPI.JoinMethod;
+import online.minipixel.smp.Utils.JoinMethod;
 import online.minipixel.smp.MessageAPI.Prefix;
 import online.minipixel.smp.Scoreboard.DefaultScoreboard;
 import org.bukkit.Bukkit;
