@@ -31,6 +31,7 @@ public class JoinListener implements Listener {
 
         if (!player.hasPlayedBefore()) {
             new JoinMethod().firstJoin(player);
+            new JoinMethod().equip(player);
             e.setJoinMessage(null);
             Bukkit.getOnlinePlayers().forEach(player1 -> {
                 player1.sendMessage(Prefix.Plugin_Prefix + "§7Willkommen auf §4minipixel.online §7" + e.getPlayer().getName() + ".");
