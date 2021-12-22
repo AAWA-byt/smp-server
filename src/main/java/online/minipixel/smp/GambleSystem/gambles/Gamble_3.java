@@ -1,4 +1,4 @@
-package online.minipixel.smp.GambleSystem;
+package online.minipixel.smp.GambleSystem.gambles;
 
 import online.minipixel.smp.Main;
 import online.minipixel.smp.MessageAPI.Prefix;
