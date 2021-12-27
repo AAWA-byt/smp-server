@@ -32,4 +32,11 @@ public class ParticelInventory {
 
         }
     }
+
+    public void close(Player player) {
+
+        particels.close();
+        player.closeInventory();
+        player.updateInventory();
+    }
 }
