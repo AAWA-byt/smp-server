@@ -8,6 +8,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.inventory.Inventory;
 
 public class ClickListener implements Listener {
 
@@ -48,6 +49,33 @@ public class ClickListener implements Listener {
                   player.openInventory(Main.getShop());
               }
 
+            }
+        }
+    }
+
+    @EventHandler
+    public void onClickVip(InventoryClickEvent e) {
+        Player player = (Player) e.getWhoClicked();
+
+        if (e.getView().getTitle().equals("§8§lVip Menü")) {
+            e.setCancelled(true);
+            if (e.getCurrentItem() != null) {
+
+                if (e.getCurrentItem().equals(Material.COMPASS)) {
+                    player.closeInventory();
+                    player.updateInventory();
+
+
+                } else if (e.getCurrentItem().equals(Material.PLAYER_HEAD)) {
+                    player.closeInventory();
+                    player.updateInventory();
+
+
+                } else if (e.getCurrentItem().equals(Material.GLOWSTONE_DUST)) {
+                    player.closeInventory();
+                    player.updateInventory();
+
+                }
             }
         }
     }
