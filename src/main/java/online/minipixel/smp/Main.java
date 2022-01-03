@@ -7,7 +7,6 @@ import online.minipixel.smp.Configs.ConfigWarps;
 import online.minipixel.smp.CustomItems.ItemManager;
 import online.minipixel.smp.Inventorys.Help;
 import online.minipixel.smp.Inventorys.Menu;
-import online.minipixel.smp.Inventorys.Team;
 import online.minipixel.smp.Inventorys.Vip;
 import online.minipixel.smp.Listener.*;
 import online.minipixel.smp.MessageAPI.Prefix;
@@ -72,8 +71,6 @@ public final class Main extends JavaPlugin {
         help = Bukkit.createInventory(null, 9*1, "§8§lHelp Menü");
         Help.open_help_menu();
 
-        team = Bukkit.createInventory(null, 9*1, "§8§lTeam Menü");
-        Team.open_team_menu();
 
         vip = Bukkit.createInventory(null, 9*1, "§8§lVip Menü");
         Vip.open_vip_menu();
@@ -107,7 +104,6 @@ public final class Main extends JavaPlugin {
             getCommand("menu").setExecutor(new MenuCommand());
             getCommand("backpack").setExecutor(new BackpackCommand());
             getCommand("vip").setExecutor(new VIPCommand());
-            getCommand("team").setExecutor(new TeamCommand());
             getCommand("warp").setExecutor(new WarpCommand());
             getCommand("enderchest").setExecutor(new EnderchestCommand());
 
@@ -148,7 +144,6 @@ public final class Main extends JavaPlugin {
     public static Main getINSTANCE() { return INSTANCE; }
     public static Inventory getMenu() {return menu;}
     public static Inventory getHelp() {return help;}
-    public static Inventory getTeam() {return team;}
     public static Inventory getVip() {return vip;}
     public TablistManager getTablistManager() { return tablistManager; }
     public ConfigBackpacks getConfiguration() {return configBackpacks;}
