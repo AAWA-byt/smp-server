@@ -2,6 +2,7 @@ package online.minipixel.smp.Listener;
 
 import online.minipixel.smp.GambleSystem.Gamble;
 import online.minipixel.smp.Main;
+import online.minipixel.smp.SkinManager.SkinInventory;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -69,6 +70,7 @@ public class ClickListener implements Listener {
                 } else if (e.getCurrentItem().equals(Material.PLAYER_HEAD)) {
                     player.closeInventory();
                     player.updateInventory();
+                    new SkinInventory().open(player);
 
 
                 } else if (e.getCurrentItem().equals(Material.GLOWSTONE_DUST)) {
