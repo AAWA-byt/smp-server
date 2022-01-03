@@ -5,7 +5,6 @@ import online.minipixel.smp.Configs.ConfigBackpacks;
 import online.minipixel.smp.Commands.*;
 import online.minipixel.smp.Configs.ConfigWarps;
 import online.minipixel.smp.CustomItems.ItemManager;
-import online.minipixel.smp.Inventorys.Help;
 import online.minipixel.smp.Inventorys.Menu;
 import online.minipixel.smp.Inventorys.Vip;
 import online.minipixel.smp.Listener.*;
@@ -29,7 +28,6 @@ public final class Main extends JavaPlugin {
 
     private static Inventory menu;
     private static Inventory help;
-    private static Inventory team;
     private static Inventory vip;
     private static Inventory shop;
     private static Inventory teleporter;
