@@ -27,7 +27,6 @@ public final class Main extends JavaPlugin {
     private static ConfigWarps warps;
 
     private static Inventory menu;
-    private static Inventory help;
     private static Inventory vip;
     private static Inventory shop;
     private static Inventory teleporter;
@@ -65,10 +64,6 @@ public final class Main extends JavaPlugin {
 
         menu = Bukkit.createInventory(null, 9*1, "§8§lMenü"); //created main menu for the whole server
         Menu.open_main_menu();
-
-        help = Bukkit.createInventory(null, 9*1, "§8§lHelp Menü");
-        Help.open_help_menu();
-
 
         vip = Bukkit.createInventory(null, 9*1, "§8§lVip Menü");
         Vip.open_vip_menu();
@@ -140,7 +135,6 @@ public final class Main extends JavaPlugin {
 
     public static Main getINSTANCE() { return INSTANCE; }
     public static Inventory getMenu() {return menu;}
-    public static Inventory getHelp() {return help;}
     public static Inventory getVip() {return vip;}
     public TablistManager getTablistManager() { return tablistManager; }
     public ConfigBackpacks getConfiguration() {return configBackpacks;}
