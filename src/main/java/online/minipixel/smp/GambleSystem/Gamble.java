@@ -36,7 +36,7 @@ public class Gamble {
         } else if (player.getItemInHand() == null) {
             player.closeInventory();
             player.updateInventory();
-            player.sendMessage(Prefix.Plugin_Prefix + "§7Halte bitte §c3§7, §c6§7, §c9§7, §c12§7 oder §c15 §7Dimanten, wenn du die Lotterie öffnest.");
+            player.sendMessage(Prefix.Plugin_Prefix + "§7Halte bitte §c3§7, §c6§7, §c9§7, §c12§7 oder §c15 §7Dimanten in der Hand, wenn du die Lotterie öffnest.");
         }
     }
 }
