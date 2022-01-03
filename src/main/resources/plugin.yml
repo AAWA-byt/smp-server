@@ -12,10 +12,6 @@ commands:
     permission: minipixel.smp.commands.afk
     description: AFK command for the smp server
 
-  help:
-    permission: minipixel.smp.commands.help
-    description: help command for smp server
-
   menu:
     permission: minipixel.smp.commands.menu
     description: menu command for smp server
