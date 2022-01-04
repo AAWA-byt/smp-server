@@ -8,9 +8,6 @@ website: minipixel.online
 dependencies: PlaceholderAPI
 
 commands:
-  afk:
-    permission: minipixel.smp.commands.afk
-    description: AFK command for the smp server
 
   menu:
     permission: minipixel.smp.commands.menu
