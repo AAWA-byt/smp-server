@@ -95,7 +95,6 @@ public final class Main extends JavaPlugin {
             getCommand("afk").setExecutor(new AFKCommand());
             getCommand("menu").setExecutor(new MenuCommand());
             getCommand("backpack").setExecutor(new BackpackCommand());
-            getCommand("vip").setExecutor(new VIPCommand());
             getCommand("warp").setExecutor(new WarpCommand());
             getCommand("enderchest").setExecutor(new EnderchestCommand());
 
