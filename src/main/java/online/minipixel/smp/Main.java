@@ -92,7 +92,6 @@ public final class Main extends JavaPlugin {
             log("");
             log(ChatColor.RED + "Die Commands werden geladen...");
             //Commands
-            getCommand("afk").setExecutor(new AFKCommand());
             getCommand("menu").setExecutor(new MenuCommand());
             getCommand("backpack").setExecutor(new BackpackCommand());
             getCommand("warp").setExecutor(new WarpCommand());
