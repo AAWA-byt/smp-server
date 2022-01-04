@@ -46,7 +46,7 @@ public final class Main extends JavaPlugin {
         // Plugin startup logic
 
         log("--------------------------------------");
-        log(ChatColor.BLUE + "" + ChatColor.BOLD + "LobbySystem " + ChatColor.GRAY + "wird geladen...");
+        log(ChatColor.BLUE + "" + ChatColor.BOLD + "SMP " + ChatColor.GRAY + "wird geladen...");
         log("--------------------------------------");
         log("Developer: " + ChatColor.GREEN + "AAWA");
         log("E-Mail: " + ChatColor.GREEN + "admin.aaron@minipixel.online");

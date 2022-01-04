@@ -1,4 +1,4 @@
-name: MiniPixel SMP
+name: MiniPixel-SMP
 version: '${project.version}'
 main: online.minipixel.smp.Main
 api-version: 1.18
