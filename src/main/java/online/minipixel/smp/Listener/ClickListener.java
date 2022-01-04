@@ -1,6 +1,7 @@
 package online.minipixel.smp.Listener;
 
 import online.minipixel.smp.GambleSystem.Gamble;
+import online.minipixel.smp.GambleSystem.gambles.*;
 import online.minipixel.smp.Main;
 import online.minipixel.smp.SkinManager.SkinInventory;
 import org.bukkit.Bukkit;
@@ -28,23 +29,22 @@ public class ClickListener implements Listener {
 
     @EventHandler
     public void onClickMenu(InventoryClickEvent e) {
+
         Player player = (Player) e.getWhoClicked();
 
         if (e.getView().getTitle().equals("§8§lMenü")) {
             e.setCancelled(true);
-            if (e.getCurrentItem() != null) {
 
-              if (e.getCurrentItem().equals(Material.COMPASS)) {
+          if (e.getCurrentItem().getType() == Material.COMPASS) {
                   player.closeInventory();
                   player.updateInventory();
                   player.openInventory(Main.getTeleporter());
 
-              } else if (e.getCurrentItem().equals(Material.DIAMOND)) {
+              } else if (e.getCurrentItem().getType() == Material.DIAMOND) {
                   player.closeInventory();
                   player.updateInventory();
-                  new Gamble().start(player);
 
-              } else if (e.getCurrentItem().equals(Material.CHEST)) {
+              } else if (e.getCurrentItem().getType() == Material.CHEST) {
                   player.closeInventory();
                   player.updateInventory();
                   player.openInventory(Main.getShop());
@@ -52,7 +52,6 @@ public class ClickListener implements Listener {
 
             }
         }
-    }
 
     @EventHandler
     public void onClickVip(InventoryClickEvent e) {
