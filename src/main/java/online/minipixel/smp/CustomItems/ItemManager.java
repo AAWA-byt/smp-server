@@ -15,6 +15,7 @@ public class ItemManager {
         ObsidianSword.getCustomObsidianSword();
         Lapispickaxe.getCustomLapisPickAxe();
         Redstoneboots.getCustomRedStoneBoots();
+        Knockbackstick.getCustomKBStick();
 
     }
 }
