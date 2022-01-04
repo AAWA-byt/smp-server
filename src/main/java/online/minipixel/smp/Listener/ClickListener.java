@@ -1,16 +1,12 @@
 package online.minipixel.smp.Listener;
 
-import online.minipixel.smp.GambleSystem.Gamble;
-import online.minipixel.smp.GambleSystem.gambles.*;
 import online.minipixel.smp.Main;
-import online.minipixel.smp.SkinManager.SkinInventory;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
-import org.bukkit.inventory.Inventory;
 
 public class ClickListener implements Listener {
 
@@ -35,23 +31,17 @@ public class ClickListener implements Listener {
         if (e.getView().getTitle().equals("§8§lMenü")) {
             e.setCancelled(true);
 
-          if (e.getCurrentItem().getType() == Material.COMPASS) {
-                  player.closeInventory();
-                  player.updateInventory();
-                  player.openInventory(Main.getTeleporter());
+            if (e.getCurrentItem().getType() == Material.COMPASS) {
+                player.closeInventory();
+                player.updateInventory();
+                player.openInventory(Main.getTeleporter());
 
-              } else if (e.getCurrentItem().getType() == Material.DIAMOND) {
-                  player.closeInventory();
-                  player.updateInventory();
-
-              } else if (e.getCurrentItem().getType() == Material.CHEST) {
-                  player.closeInventory();
-                  player.updateInventory();
-                  player.openInventory(Main.getShop());
-              }
-
+            } else if (e.getCurrentItem().getType() == Material.CHEST) {
+                player.closeInventory();
+                player.updateInventory();
             }
         }
+    }
 
     @EventHandler
     public void onClickVip(InventoryClickEvent e) {
@@ -69,8 +59,6 @@ public class ClickListener implements Listener {
                 } else if (e.getCurrentItem().equals(Material.PLAYER_HEAD)) {
                     player.closeInventory();
                     player.updateInventory();
-                    new SkinInventory().open(player);
-
 
                 } else if (e.getCurrentItem().equals(Material.GLOWSTONE_DUST)) {
                     player.closeInventory();
