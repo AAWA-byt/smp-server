@@ -4,6 +4,7 @@ import online.minipixel.smp.Main;
 import online.minipixel.smp.Utils.ItemBuilder;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemFlag;
+import org.bukkit.inventory.ItemStack;
 
 public class Menu {
 
@@ -20,6 +21,9 @@ public class Menu {
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
         Main.getMenu().setItem(15, new ItemBuilder(Material.CRAFTING_TABLE, 1).setDisplayname("§2§lRezepte §7(Linksklick)")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
+        Main.getMenu().setItem(26, new ItemBuilder(Material.BARRIER,1).setDisplayname("§c§lSchließen §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
 
@@ -69,8 +73,6 @@ public class Menu {
         Main.getMenu().setItem(24, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
         Main.getMenu().setItem(25, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
-                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
-        Main.getMenu().setItem(26, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
 
