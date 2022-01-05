@@ -31,6 +31,7 @@ public final class Main extends JavaPlugin {
     private static Inventory vip;
     private static Inventory teleporter;
     private static Inventory gamble;
+    private static Inventory admin;
 
     private TablistManager tablistManager;
 
@@ -73,6 +74,8 @@ public final class Main extends JavaPlugin {
 
         gamble = Bukkit.createInventory(null, 9*3, "§6§lLotterie");
         Gamble.open_gamble_menu();
+
+        admin = Bukkit.createInventory(null, 9*3, "§4§lAdmin");
 
         //PlaceholderAPI
         log(ChatColor.RED + "PlaceholderAPI wird geladen...");
