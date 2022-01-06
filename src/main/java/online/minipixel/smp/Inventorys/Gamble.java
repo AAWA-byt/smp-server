@@ -34,6 +34,9 @@ public class Gamble {
         Main.getGamble().setItem(16, new ItemBuilder(Material.DIAMOND, 1).setDisplayname("§6§lLotterie 6 §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 15x Diamant", "").setLocalizedName("l6").build());
 
+        Main.getGamble().setItem(26, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lSchließen §7(Linksklick)")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLocalizedName("close").build());
+
 
 
         //inventory "background"
