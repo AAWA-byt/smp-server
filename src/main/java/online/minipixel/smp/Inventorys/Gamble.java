@@ -33,5 +33,41 @@ public class Gamble {
         //inventory "background"
         Main.getGamble().setItem(0, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(1, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(2, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(3, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(4, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(5, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(6, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(7, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(8, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(9, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(17, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(18, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(19, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(20, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(21, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(22, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(23, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(24, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+        Main.getGamble().setItem(25, new ItemBuilder(Material.GRAY_STAINED_GLASS_PANE, 1).setDisplayname("§c")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
     }
 }
