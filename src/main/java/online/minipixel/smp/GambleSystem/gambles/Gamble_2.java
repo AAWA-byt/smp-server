@@ -25,7 +25,7 @@ public class Gamble_2 {
     private int ItemIndex = 0;
 
     public void gamble(Player player) {
-        ItemStack fee = new ItemStack(Material.DIAMOND, 6);
+        ItemStack fee = new ItemStack(Material.DIAMOND, 4);
         if (player.getInventory().getItemInMainHand().equals(fee)) {
             player.getInventory().removeItem(fee);
             spin(player);
@@ -33,7 +33,7 @@ public class Gamble_2 {
         } else {
 
         player.closeInventory();
-        player.sendMessage(Prefix.Plugin_Prefix + "§cDu benötigst 6 Diamanten!");
+        player.sendMessage(Prefix.Plugin_Prefix + "§cDu benötigst 4 Diamanten!");
 
     }
 }
