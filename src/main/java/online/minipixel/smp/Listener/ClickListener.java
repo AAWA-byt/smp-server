@@ -120,6 +120,9 @@ public class ClickListener implements Listener {
                         player.updateInventory();
                         new Gamble_6().gamble(player);
 
+                    } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "close") {
+                        player.getInventory().close();
+                        player.updateInventory();
                     }
                 }
             }
