@@ -25,12 +25,12 @@ public class Gamble_5 {
 
     public void gamble(Player player) {
 
-        ItemStack fee = new ItemStack(Material.DIAMOND, 15);
+        ItemStack fee = new ItemStack(Material.DIAMOND, 10);
         if (player.getInventory().getItemInMainHand().isSimilar(fee)) {
             player.getInventory().removeItem(fee);
             spin(player);
         } else {
-        player.sendMessage(Prefix.Plugin_Prefix + "§cDu benötigst 15 Diamanten!");
+        player.sendMessage(Prefix.Plugin_Prefix + "§cDu benötigst 10 Diamanten!");
 
     }
 }
