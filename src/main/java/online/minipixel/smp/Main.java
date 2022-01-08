@@ -10,7 +10,6 @@ import online.minipixel.smp.Inventorys.Menu;
 import online.minipixel.smp.Inventorys.Vip;
 import online.minipixel.smp.Listener.*;
 import online.minipixel.smp.MessageAPI.Prefix;
-import online.minipixel.smp.Tablist.TablistManager;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
@@ -32,8 +31,6 @@ public final class Main extends JavaPlugin {
     private static Inventory teleporter;
     private static Inventory gamble;
     private static Inventory admin;
-
-    private TablistManager tablistManager;
 
     private ConfigBackpacks configBackpacks;
     private BackpackManager backpackManager;
@@ -57,7 +54,6 @@ public final class Main extends JavaPlugin {
         log("--------------------------------------");
 
         INSTANCE = this;
-        tablistManager = new TablistManager();
         backpackManager = new BackpackManager();
         warps = new ConfigWarps("warps.yml", getDataFolder());
         ItemManager.initItems();
@@ -139,7 +135,6 @@ public final class Main extends JavaPlugin {
     public static Main getINSTANCE() { return INSTANCE; }
     public static Inventory getMenu() {return menu;}
     public static Inventory getVip() {return vip;}
-    public TablistManager getTablistManager() { return tablistManager; }
     public ConfigBackpacks getConfiguration() {return configBackpacks;}
     public BackpackManager getBackpackManager() {return backpackManager;}
     public static ConfigWarps getWarps() {return warps;}
