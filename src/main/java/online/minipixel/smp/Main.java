@@ -5,6 +5,7 @@ import online.minipixel.smp.Configs.ConfigBackpacks;
 import online.minipixel.smp.Commands.*;
 import online.minipixel.smp.Configs.ConfigWarps;
 import online.minipixel.smp.CustomItems.ItemManager;
+import online.minipixel.smp.Inventorys.Admin;
 import online.minipixel.smp.Inventorys.Gamble;
 import online.minipixel.smp.Inventorys.Menu;
 import online.minipixel.smp.Inventorys.Vip;
@@ -72,6 +73,7 @@ public final class Main extends JavaPlugin {
         Gamble.open_gamble_menu();
 
         admin = Bukkit.createInventory(null, 9*3, "§4§lAdmin");
+        Admin.open_admin_menu();
 
         //PlaceholderAPI
         log(ChatColor.RED + "PlaceholderAPI wird geladen...");
