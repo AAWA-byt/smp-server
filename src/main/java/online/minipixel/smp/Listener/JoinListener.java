@@ -1,6 +1,5 @@
 package online.minipixel.smp.Listener;
 
-import online.minipixel.smp.Main;
 import online.minipixel.smp.Utils.JoinMethod;
 import online.minipixel.smp.MessageAPI.Prefix;
 import online.minipixel.smp.Scoreboard.DefaultScoreboard;
@@ -18,9 +17,6 @@ public class JoinListener implements Listener {
         new JoinMethod().defaultJoin(player);
 
         new DefaultScoreboard(player, "§7§l>> §4§lMiniPixel §7§l<<");
-        Main.getINSTANCE().getTablistManager().setTablist(player);
-        Main.getINSTANCE().getTablistManager().setPlayerTeam(player);
-        Main.getINSTANCE().getTablistManager().setAllPlayerTeams();
 
         e.setJoinMessage("§a>> §7" + player.getName());
     }
