@@ -17,10 +17,10 @@ public class Vip {
             Main.getVip().setItem(0, new ItemBuilder(Material.COMPASS, 1).setDisplayname("§9§lTeleporter §7(Linksklick)")
                     .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
-            Main.getVip().setItem(1, new ItemBuilder(Material.PLAYER_HEAD, 1).setDisplayname("§2§lSkins §7(Linksklick)")
+            Main.getVip().setItem(2, new ItemBuilder(Material.TOTEM_OF_UNDYING, 1).setDisplayname("§6§lTotem Effekt §7(Linksklick)")
                     .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
-            Main.getVip().setItem(2, new ItemBuilder(Material.GLOWSTONE_DUST,1).setDisplayname("§e§lPartikel §7(Linksklick)")
+            Main.getVip().setItem(3, new ItemBuilder(Material.DRAGON_EGG,1).setDisplayname("§b§lDrachen Effekt §7(Linksklick)")
                     .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
         }
 }
