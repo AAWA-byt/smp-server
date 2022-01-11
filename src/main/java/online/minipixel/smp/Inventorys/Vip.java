@@ -22,5 +22,8 @@ public class Vip {
 
             Main.getVip().setItem(3, new ItemBuilder(Material.DRAGON_EGG,1).setDisplayname("§b§lDrachen Effekt §7(Linksklick)")
                     .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
+            Main.getVip().setItem(8, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lEffekte entfernen §7(Linksklick)")
+                    .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
         }
 }
