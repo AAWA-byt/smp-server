@@ -2,6 +2,8 @@ package online.minipixel.smp.Listener;
 
 import online.minipixel.smp.GambleSystem.gambles.*;
 import online.minipixel.smp.Main;
+import online.minipixel.smp.ModelsParticel.Effects;
+import online.minipixel.smp.ModelsParticel.ParticelData;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -65,16 +67,21 @@ public class ClickListener implements Listener {
                 if (e.getCurrentItem().equals(Material.COMPASS)) {
                     player.closeInventory();
                     player.updateInventory();
+                    player.openInventory(Main.getTeleporter());
 
-
-                } else if (e.getCurrentItem().equals(Material.PLAYER_HEAD)) {
+                } else if (e.getCurrentItem().equals(Material.TOTEM_OF_UNDYING)) {
                     player.closeInventory();
                     player.updateInventory();
 
-                } else if (e.getCurrentItem().equals(Material.GLOWSTONE_DUST)) {
-                    player.closeInventory();
-                    player.updateInventory();
+                    ParticelData particelData_totem = new ParticelData(player.getUniqueId());
 
+                    if (particelData_totem.hasID()) {
+                        particelData_totem.endTask();
+                        particelData_totem.removeID();
+
+                    }
+                    Effects trails = new Effects(player);
+                    trails.startTotem();
                 }
             }
         }
