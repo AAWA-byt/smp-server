@@ -82,6 +82,20 @@ public class ClickListener implements Listener {
                     }
                     Effects trails = new Effects(player);
                     trails.startTotem();
+
+                } else if (e.getCurrentItem().equals(Material.DRAGON_EGG)) {
+                    player.closeInventory();
+                    player.updateInventory();
+
+                    ParticelData particelData_dragon = new ParticelData(player.getUniqueId());
+
+                    if (particelData_dragon.hasID()) {
+                        particelData_dragon.endTask();
+                        particelData_dragon.removeID();
+
+                    }
+                    Effects trails = new Effects(player);
+                    trails.startDragonBreath();
                 }
             }
         }
