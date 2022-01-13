@@ -131,27 +131,22 @@ public class ClickListener implements Listener {
                     } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l2") {
                         player.getInventory().close();
                         player.updateInventory();
-                        new Gamble_2().gamble(player);
 
                     } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l3") {
                         player.getInventory().close();
                         player.updateInventory();
-                        new Gamble_3().gamble(player);
 
                     } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l4") {
                         player.getInventory().close();
                         player.updateInventory();
-                        new Gamble_4().gamble(player);
 
                     } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l5") {
                         player.getInventory().close();
                         player.updateInventory();
-                        new Gamble_5().gamble(player);
 
                     } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l6") {
                         player.getInventory().close();
                         player.updateInventory();
-                        new Gamble_6().gamble(player);
 
                     } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "close") {
                         player.getInventory().close();
