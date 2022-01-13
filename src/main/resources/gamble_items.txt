@@ -1,0 +1,20 @@
+overworld:
+
+mycelium, block of amethyst, tinted glass, dark prismarine,
+blue ice, dripstone block, tuff, clay, snow block
+
+
+nether:
+
+shroomlight, gilded blackstone, warped wart block,
+nether wart block, magma block, nether quartz ore, smooth basalt, obsidian,
+crying obsidian (hab chiseled nether brick durch nether quartz ore getauscht
+weil stone cutter existieren und das den gewinn unnötig machen würde)
+
+
+end: end stone, purpur block, chorus flower, dragon's breath, elytra, dragon head,
+end rod, end crystal, ender pearl (hab obsidian durch chorus flowers getauscht
+weil obsidian sonst zwei mal da wäre)
+
+ausrüstung: netherite ingot, trident, totem of undying, arrow of invisibility (22 sekunden),
+mending, unbreaking 3, looting 3, protection 4, sharpness 5
