@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class Gamble_1 {
+public class Gamble_Vorlage {
 
     List<Inventory> invs = new ArrayList<Inventory>();
     public static ItemStack[] contents;

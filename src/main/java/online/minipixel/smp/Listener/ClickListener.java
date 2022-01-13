@@ -126,7 +126,7 @@ public class ClickListener implements Listener {
                     if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l1") {
                         player.getInventory().close();
                         player.updateInventory();
-                        new Gamble_1().gamble(player);
+                        new Gamble_Vorlage().gamble(player);
 
                     } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l2") {
                         player.getInventory().close();
