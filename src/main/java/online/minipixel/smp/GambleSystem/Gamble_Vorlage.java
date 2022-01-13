@@ -1,4 +1,4 @@
-package online.minipixel.smp.GambleSystem.gambles;
+package online.minipixel.smp.GambleSystem;
 
 
 import online.minipixel.smp.Main;
