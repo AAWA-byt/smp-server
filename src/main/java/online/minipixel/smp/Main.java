@@ -143,6 +143,7 @@ public final class Main extends JavaPlugin {
     public static ConfigWarps getWarps() {return warps;}
     public static Inventory getTeleporter() {return teleporter;}
     public static Inventory getGamble() {return gamble;}
+    public static Inventory getAdmin() {return admin;}
 
     public ItemStack getItem(Player player) {
         ItemStack itemStack = new ItemStack(Material.PLAYER_HEAD);
