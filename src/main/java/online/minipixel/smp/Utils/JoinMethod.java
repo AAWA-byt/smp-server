@@ -15,6 +15,11 @@ public class JoinMethod {
 
     }
 
+    public void helpmessage(Player player) {
+
+
+    }
+
     public void equip(Player player) {
 
         Inventory inventory = player.getInventory();
