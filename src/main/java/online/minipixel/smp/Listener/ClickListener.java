@@ -1,5 +1,6 @@
 package online.minipixel.smp.Listener;
 
+import online.minipixel.smp.GambleSystem.Gamble_Vorlage;
 import online.minipixel.smp.GambleSystem.gambles.*;
 import online.minipixel.smp.Main;
 import online.minipixel.smp.ModelsParticel.Effects;
