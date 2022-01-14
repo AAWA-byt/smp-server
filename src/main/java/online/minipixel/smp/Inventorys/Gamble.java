@@ -17,13 +17,13 @@ public class Gamble {
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 8x Diamant", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!", "").setLocalizedName("l1").build());
 
         Main.getGamble().setItem(12, new ItemBuilder(Material.NETHERRACK, 1).setDisplayname("§4§lNether §7(Linksklick)")
-                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 12x Diamant", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!", "").setLocalizedName("l1").build());
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 12x Diamant", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!", "").setLocalizedName("l2").build());
 
         Main.getGamble().setItem(14, new ItemBuilder(Material.END_STONE, 1).setDisplayname("§f§lTools §7(Linksklick)")
-                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 20x Diamant", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!", "").setLocalizedName("l1").build());
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 20x Diamant", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!", "").setLocalizedName("l3").build());
 
         Main.getGamble().setItem(16, new ItemBuilder(Material.IRON_PICKAXE, 1).setDisplayname("§9§lTools §7(Linksklick)")
-                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 25x Diamant", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!", "").setLocalizedName("l1").build());
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 25x Diamant", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!", "").setLocalizedName("l4").build());
 
         Main.getGamble().setItem(26, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lSchließen §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLocalizedName("close").build());
