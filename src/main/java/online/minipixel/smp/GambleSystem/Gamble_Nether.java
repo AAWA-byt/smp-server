@@ -26,7 +26,7 @@ public class Gamble_Nether {
 
         ItemStack fee = new ItemStack(Material.DIAMOND, 12);
         if (player.getInventory().getItemInMainHand().equals(fee)) {
-            player.getInventory().removeItem(fee);
+            player.getInventory().remove(fee);
             this.spin(player);
 
         } else {
@@ -41,7 +41,7 @@ public class Gamble_Nether {
 
     public void shuffle (Inventory inv){
         if (contents == null) {
-            ItemStack[] items = new ItemStack[17];
+            ItemStack[] items = new ItemStack[19];
             items[0] = new ItemStack(Material.SHROOMLIGHT, 64);
             items[1] = new ItemStack(Material.GILDED_BLACKSTONE, 64);
             items[2] = new ItemStack(Material.WARPED_WART_BLOCK, 64);
