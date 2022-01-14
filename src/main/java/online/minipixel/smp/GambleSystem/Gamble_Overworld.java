@@ -41,8 +41,27 @@ public class Gamble_Overworld {
 
     public void shuffle (Inventory inv){
         if (contents == null) {
-            ItemStack[] items = new ItemStack[21];
-            items[0] = new ItemStack(Material.OAK_WOOD, 32);
+            ItemStack[] items = new ItemStack[16];
+            items[0] = new ItemStack(Material.MYCELIUM, 64);
+            items[1] = new ItemStack(Material.AMETHYST_BLOCK, 64);
+            items[2] = new ItemStack(Material.TINTED_GLASS, 64);
+            items[3] = new ItemStack(Material.DARK_PRISMARINE, 64);
+            items[4] = new ItemStack(Material.BLUE_ICE, 64);
+            items[5] = new ItemStack(Material.DRIPSTONE_BLOCK, 64);
+            items[6] = new ItemStack(Material.TUFF, 64);
+            items[7] = new ItemStack(Material.CLAY, 64);
+            items[8] = new ItemStack(Material.SNOW_BLOCK, 64);
+            items[9] = new ItemStack(Material.MYCELIUM, 64);
+            items[10] = new ItemStack(Material.AMETHYST_BLOCK, 64);
+            items[11] = new ItemStack(Material.TINTED_GLASS, 64);
+            items[12] = new ItemStack(Material.DARK_PRISMARINE, 64);
+            items[13] = new ItemStack(Material.BLUE_ICE, 64);
+            items[14] = new ItemStack(Material.DRIPSTONE_BLOCK, 64);
+            items[15] = new ItemStack(Material.TUFF, 64);
+            items[16] = new ItemStack(Material.CLAY, 64);
+            items[17] = new ItemStack(Material.SNOW_BLOCK, 64);
+
+
 
             contents = items;
         }
