@@ -2,9 +2,11 @@ package online.minipixel.smp.GambleSystem;
 
 import online.minipixel.smp.Main;
 import online.minipixel.smp.MessageAPI.Prefix;
+import online.minipixel.smp.Utils.ItemBuilder;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.Sound;
+import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
@@ -41,9 +43,25 @@ public class Gamble_Tools {
 
     public void shuffle (Inventory inv){
         if (contents == null) {
-            ItemStack[] items = new ItemStack[21];
-            items[0] = new ItemStack(Material.OAK_WOOD, 32);
-
+            ItemStack[] items = new ItemStack[17];
+            items[0] = new ItemStack(Material.NETHERITE_INGOT, 1);
+            items[1] = new ItemStack(Material.TRIDENT, 1);
+            items[2] = new ItemStack(Material.TOTEM_OF_UNDYING, 1);
+            items[3] = new ItemStack(Material.SPECTRAL_ARROW, 64);
+            items[4] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.MENDING, 1, true).build();
+            items[5] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.DURABILITY, 3, true).build();
+            items[6] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.LOOT_BONUS_MOBS, 3, true).build();
+            items[7] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4, true).build();
+            items[8] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.DAMAGE_ALL, 5, true).build();
+            items[9] = new ItemStack(Material.NETHERITE_INGOT, 1);
+            items[10] = new ItemStack(Material.TRIDENT, 1);
+            items[12] = new ItemStack(Material.TOTEM_OF_UNDYING, 1);
+            items[13] = new ItemStack(Material.SPECTRAL_ARROW, 64);
+            items[14] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.MENDING, 1, true).build();
+            items[15] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.DURABILITY, 3, true).build();
+            items[16] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.LOOT_BONUS_MOBS, 3, true).build();
+            items[17] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4, true).build();
+            items[18] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.DAMAGE_ALL, 5, true).build();
 
             contents = items;
         }
