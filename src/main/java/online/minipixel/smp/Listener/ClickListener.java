@@ -1,6 +1,6 @@
 package online.minipixel.smp.Listener;
 
-import online.minipixel.smp.GambleSystem.Gamble_Vorlage;
+import online.minipixel.smp.GambleSystem.*;
 import online.minipixel.smp.Main;
 import online.minipixel.smp.ModelsParticel.Effects;
 import online.minipixel.smp.ModelsParticel.ParticelData;
@@ -119,32 +119,28 @@ public class ClickListener implements Listener {
 
         if (e.getView().getTitle().equals("§6§lLotterie")) {
             e.setCancelled(true);
-            if (e.getCurrentItem() != null) {
 
-                if (e.getCurrentItem().getItemMeta().hasLocalizedName()) {
+            if (e.getCurrentItem().getType() == Material.GRASS_BLOCK) {
+                player.closeInventory();
+                player.updateInventory();
+                new Gamble_Overworld().gamble(player);
 
-                    if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l1") {
-                        player.getInventory().close();
-                        player.updateInventory();
-                        new Gamble_Vorlage().gamble(player);
+            } else if (e.getCurrentItem().getType() == Material.NETHERRACK) {
+                player.closeInventory();
+                player.updateInventory();
+                new Gamble_Nether().gamble(player);
 
-                    } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l2") {
-                        player.getInventory().close();
-                        player.updateInventory();
 
-                    } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l3") {
-                        player.getInventory().close();
-                        player.updateInventory();
+            } else if (e.getCurrentItem().getType() == Material.END_STONE) {
+                player.closeInventory();
+                player.updateInventory();
+                new Gamble_End().gamble(player);
 
-                    } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l4") {
-                        player.getInventory().close();
-                        player.updateInventory();
+            } else if (e.getCurrentItem().getType() == Material.IRON_PICKAXE) {
+                player.closeInventory();
+                player.updateInventory();
+                new Gamble_Tools().gamble(player);
 
-                    } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "close") {
-                        player.getInventory().close();
-                        player.updateInventory();
-                    }
-                }
             }
         }
     }
