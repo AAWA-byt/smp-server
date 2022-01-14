@@ -17,6 +17,9 @@ public class WarpCommand implements CommandExecutor {
             return false;
         }
         Player p = (Player) sender;
+
+        p.sendMessage(Prefix.WarpSystem_Prefix + "§7Benutze §c/warp add <name>§7, um einen Warp zu erstellen und &c/warp <name>§7, um dich zu einem Warp zu teleportieren.");
+
         if (args.length == 1) {
             if (WarpManager.getWarp(args[0]) != null) {
                 p.teleport(WarpManager.getWarp(args[0]));
