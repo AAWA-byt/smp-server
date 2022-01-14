@@ -41,8 +41,25 @@ public class Gamble_Nether {
 
     public void shuffle (Inventory inv){
         if (contents == null) {
-            ItemStack[] items = new ItemStack[21];
-            items[0] = new ItemStack(Material.OAK_WOOD, 32);
+            ItemStack[] items = new ItemStack[17];
+            items[0] = new ItemStack(Material.SHROOMLIGHT, 64);
+            items[1] = new ItemStack(Material.GILDED_BLACKSTONE, 64);
+            items[2] = new ItemStack(Material.WARPED_WART_BLOCK, 64);
+            items[3] = new ItemStack(Material.NETHER_WART_BLOCK, 64);
+            items[4] = new ItemStack(Material.MAGMA_BLOCK, 64);
+            items[5] = new ItemStack(Material.NETHER_QUARTZ_ORE, 64);
+            items[6] = new ItemStack(Material.SMOOTH_BASALT, 64);
+            items[7] = new ItemStack(Material.OBSIDIAN, 64);
+            items[8] = new ItemStack(Material.CRYING_OBSIDIAN, 64);
+            items[9] = new ItemStack(Material.SHROOMLIGHT, 64);
+            items[10] = new ItemStack(Material.GILDED_BLACKSTONE, 64);
+            items[12] = new ItemStack(Material.WARPED_WART_BLOCK, 64);
+            items[13] = new ItemStack(Material.NETHER_WART_BLOCK, 64);
+            items[14] = new ItemStack(Material.MAGMA_BLOCK, 64);
+            items[15] = new ItemStack(Material.NETHER_QUARTZ_ORE, 64);
+            items[16] = new ItemStack(Material.SMOOTH_BASALT, 64);
+            items[17] = new ItemStack(Material.OBSIDIAN, 64);
+            items[18] = new ItemStack(Material.CRYING_OBSIDIAN, 64);
 
 
             contents = items;
