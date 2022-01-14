@@ -34,7 +34,7 @@ public class WarpCommand implements CommandExecutor {
                 p.playSound(p.getLocation(), Sound.ENTITY_GENERIC_EXPLODE, 0.2f, 1.4f);
                 return false;
             }
-            if (p.hasPermission("minipixel.lobby.command.warp.add")) {
+            if (p.hasPermission("minipixel.smp.command.warp.add")) {
                 if (args[0].equalsIgnoreCase("add")) {
                     if (WarpManager.getWarp(args[1]) == null) {
                         WarpManager.createWarp(args[1], p.getLocation());
