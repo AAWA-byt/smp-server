@@ -26,7 +26,7 @@ public class Gamble_End {
 
         ItemStack fee = new ItemStack(Material.DIAMOND, 20);
         if (player.getInventory().getItemInMainHand().equals(fee)) {
-            player.getInventory().removeItem(fee);
+            player.getInventory().remove(fee);
             this.spin(player);
 
         } else {
@@ -41,7 +41,7 @@ public class Gamble_End {
 
     public void shuffle (Inventory inv){
         if (contents == null) {
-            ItemStack[] items = new ItemStack[17];
+            ItemStack[] items = new ItemStack[19];
             items[0] = new ItemStack(Material.END_STONE, 64);
             items[1] = new ItemStack(Material.PURPUR_BLOCK, 64);
             items[2] = new ItemStack(Material.CHORUS_FLOWER, 64);
