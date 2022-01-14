@@ -61,7 +61,7 @@ public final class Main extends JavaPlugin {
 
         //Inventorys
 
-        menu = Bukkit.createInventory(null, 9*1, "§8§lMenü"); //created main menu for the whole server
+        menu = Bukkit.createInventory(null, 9*3, "§8§lMenü"); //created main menu for the whole server
         Menu.open_main_menu();
 
         vip = Bukkit.createInventory(null, 9*1, "§d§lVip Menü");
