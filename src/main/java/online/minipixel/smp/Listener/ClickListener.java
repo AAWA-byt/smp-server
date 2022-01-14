@@ -1,7 +1,6 @@
 package online.minipixel.smp.Listener;
 
 import online.minipixel.smp.GambleSystem.Gamble_Vorlage;
-import online.minipixel.smp.GambleSystem.gambles.*;
 import online.minipixel.smp.Main;
 import online.minipixel.smp.ModelsParticel.Effects;
 import online.minipixel.smp.ModelsParticel.ParticelData;
@@ -138,14 +137,6 @@ public class ClickListener implements Listener {
                         player.updateInventory();
 
                     } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l4") {
-                        player.getInventory().close();
-                        player.updateInventory();
-
-                    } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l5") {
-                        player.getInventory().close();
-                        player.updateInventory();
-
-                    } else if (e.getCurrentItem().getItemMeta().getLocalizedName() == "l6") {
                         player.getInventory().close();
                         player.updateInventory();
 
