@@ -26,14 +26,14 @@ public class Gamble_Tools {
 
     public void gamble(Player player) {
 
-        ItemStack fee = new ItemStack(Material.DIAMOND, 1);
+        ItemStack fee = new ItemStack(Material.DIAMOND, 25);
         if (player.getInventory().getItemInMainHand().equals(fee)) {
-            player.getInventory().removeItem(fee);
+            player.getInventory().remove(fee);
             this.spin(player);
 
         } else {
             player.closeInventory();
-            player.sendMessage(Prefix.Plugin_Prefix + "§cDu benötigst 1 Diamanten!");
+            player.sendMessage(Prefix.Plugin_Prefix + "§cDu benötigst 25 Diamanten!");
         }
 
 
@@ -43,7 +43,7 @@ public class Gamble_Tools {
 
     public void shuffle (Inventory inv){
         if (contents == null) {
-            ItemStack[] items = new ItemStack[17];
+            ItemStack[] items = new ItemStack[19];
             items[0] = new ItemStack(Material.NETHERITE_INGOT, 1);
             items[1] = new ItemStack(Material.TRIDENT, 1);
             items[2] = new ItemStack(Material.TOTEM_OF_UNDYING, 1);
