@@ -26,7 +26,7 @@ public class Gamble_Overworld {
 
         ItemStack fee = new ItemStack(Material.DIAMOND, 8);
         if (player.getInventory().getItemInMainHand().equals(fee)) {
-            player.getInventory().removeItem(fee);
+            player.getInventory().remove(fee);
             this.spin(player);
 
         } else {
@@ -41,7 +41,7 @@ public class Gamble_Overworld {
 
     public void shuffle (Inventory inv){
         if (contents == null) {
-            ItemStack[] items = new ItemStack[16];
+            ItemStack[] items = new ItemStack[18];
             items[0] = new ItemStack(Material.MYCELIUM, 64);
             items[1] = new ItemStack(Material.AMETHYST_BLOCK, 64);
             items[2] = new ItemStack(Material.TINTED_GLASS, 64);
