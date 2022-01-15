@@ -48,20 +48,20 @@ public class Gamble_Tools {
             items[1] = new ItemStack(Material.TRIDENT, 1);
             items[2] = new ItemStack(Material.TOTEM_OF_UNDYING, 1);
             items[3] = new ItemStack(Material.SPECTRAL_ARROW, 64);
-            items[4] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.MENDING, 1, true).build();
-            items[5] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.DURABILITY, 3, true).build();
-            items[6] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.LOOT_BONUS_MOBS, 3, true).build();
-            items[7] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4, true).build();
-            items[8] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.DAMAGE_ALL, 5, true).build();
+            items[4] = new ItemStack(Material.FIREWORK_ROCKET, 64);
+            items[5] = new ItemStack(Material.NETHER_STAR, 1);
+            items[6] = new ItemStack(Material.BOOKSHELF, 64);
+            items[7] = new ItemStack(Material.EXPERIENCE_BOTTLE, 64);
+            items[8] = new ItemStack(Material.SPONGE, 64);
             items[9] = new ItemStack(Material.NETHERITE_INGOT, 1);
             items[10] = new ItemStack(Material.TRIDENT, 1);
             items[12] = new ItemStack(Material.TOTEM_OF_UNDYING, 1);
             items[13] = new ItemStack(Material.SPECTRAL_ARROW, 64);
-            items[14] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.MENDING, 1, true).build();
-            items[15] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.DURABILITY, 3, true).build();
-            items[16] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.LOOT_BONUS_MOBS, 3, true).build();
-            items[17] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.PROTECTION_ENVIRONMENTAL, 4, true).build();
-            items[18] = new ItemBuilder(Material.ENCHANTED_BOOK, 1).addEnchantment(Enchantment.DAMAGE_ALL, 5, true).build();
+            items[14] = new ItemStack(Material.FIREWORK_ROCKET, 64);
+            items[15] = new ItemStack(Material.NETHER_STAR, 1);
+            items[16] = new ItemStack(Material.BOOKSHELF, 64);
+            items[17] = new ItemStack(Material.EXPERIENCE_BOTTLE, 64);
+            items[18] = new ItemStack(Material.SPONGE, 64);
 
             contents = items;
         }
