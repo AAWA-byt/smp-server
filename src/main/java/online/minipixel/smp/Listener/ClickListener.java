@@ -144,4 +144,22 @@ public class ClickListener implements Listener {
             }
         }
     }
+
+    @EventHandler
+    public void onClickGambleSystem(InventoryClickEvent e) {
+
+        if (e.getView().getTitle().equals("§8The End")) {
+            e.setCancelled(true);
+
+        } else if (e.getView().getTitle().equals("§8Nether")) {
+            e.setCancelled(true);
+
+        } else if (e.getView().getTitle().equals("§8Tools")) {
+            e.setCancelled(true);
+
+        } else if (e.getView().getTitle().equals("§8Overworld")) {
+            e.setCancelled(true);
+
+        }
+    }
 }
