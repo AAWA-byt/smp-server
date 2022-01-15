@@ -84,7 +84,7 @@ public class Gamble_Tools {
     }
 
     public void spin ( final Player player){
-        Inventory inv = Bukkit.createInventory(null, 27, "§6§lLotterie 1");
+        Inventory inv = Bukkit.createInventory(null, 27, "§8Tools");
         shuffle(inv);
         invs.add(inv);
         player.openInventory(inv);
