@@ -32,6 +32,7 @@ public final class Main extends JavaPlugin {
     private static Inventory teleporter;
     private static Inventory gamble;
     private static Inventory admin;
+    private static Inventory crafting;
 
     private ConfigBackpacks configBackpacks;
     private BackpackManager backpackManager;
@@ -74,6 +75,8 @@ public final class Main extends JavaPlugin {
 
         admin = Bukkit.createInventory(null, 9*3, "§4§lAdmin");
         Admin.open_admin_menu();
+
+        crafting = Bukkit.createInventory(null, 9*1, "§8§lCrafting Rezepte");
 
         //PlaceholderAPI
         log(ChatColor.RED + "PlaceholderAPI wird geladen...");
@@ -144,6 +147,7 @@ public final class Main extends JavaPlugin {
     public static Inventory getTeleporter() {return teleporter;}
     public static Inventory getGamble() {return gamble;}
     public static Inventory getAdmin() {return admin;}
+    public static Inventory getCrafting() {return crafting;}
 
     public ItemStack getItem(Player player) {
         ItemStack itemStack = new ItemStack(Material.PLAYER_HEAD);
