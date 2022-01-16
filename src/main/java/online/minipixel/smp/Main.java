@@ -5,10 +5,7 @@ import online.minipixel.smp.Configs.ConfigBackpacks;
 import online.minipixel.smp.Commands.*;
 import online.minipixel.smp.Configs.ConfigWarps;
 import online.minipixel.smp.CustomItems.ItemManager;
-import online.minipixel.smp.Inventorys.Admin;
-import online.minipixel.smp.Inventorys.Gamble;
-import online.minipixel.smp.Inventorys.Menu;
-import online.minipixel.smp.Inventorys.Vip;
+import online.minipixel.smp.Inventorys.*;
 import online.minipixel.smp.Listener.*;
 import online.minipixel.smp.MessageAPI.Prefix;
 import org.bukkit.Bukkit;
@@ -77,6 +74,7 @@ public final class Main extends JavaPlugin {
         Admin.open_admin_menu();
 
         crafting = Bukkit.createInventory(null, 9*1, "§8§lCrafting Rezepte");
+        Crafting.open_crafting_menu();
 
         //PlaceholderAPI
         log(ChatColor.RED + "PlaceholderAPI wird geladen...");
