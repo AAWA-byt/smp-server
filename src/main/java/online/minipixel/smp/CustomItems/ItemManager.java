@@ -16,6 +16,7 @@ public class ItemManager {
         Lapispickaxe.getCustomLapisPickAxe();
         Redstoneboots.getCustomRedStoneBoots();
         Knockbackstick.getCustomKBStick();
+        EmeraldPickaxe.getCustomEmeraldPickAxe();
 
     }
 }
