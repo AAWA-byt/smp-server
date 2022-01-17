@@ -73,7 +73,7 @@ public final class Main extends JavaPlugin {
         admin = Bukkit.createInventory(null, 9*3, "§4§lAdmin");
         Admin.open_admin_menu();
 
-        crafting = Bukkit.createInventory(null, 9*1, "§8§lCrafting Rezepte");
+        crafting = Bukkit.createInventory(null, 9*5, "§8§lCrafting Rezepte");
         Crafting.open_crafting_menu();
 
         //PlaceholderAPI
