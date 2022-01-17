@@ -10,6 +10,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
+import org.bukkit.inventory.Inventory;
 
 public class ClickListener implements Listener {
 
@@ -160,6 +161,14 @@ public class ClickListener implements Listener {
         } else if (e.getView().getTitle().equals("§8Overworld")) {
             e.setCancelled(true);
 
+        }
+    }
+
+    @EventHandler
+    public void onClickCrafting(InventoryClickEvent e) {
+
+        if (e.getView().getTitle().equals("§8§lCrafting Rezepte")) {
+            e.setCancelled(true);
         }
     }
 }
