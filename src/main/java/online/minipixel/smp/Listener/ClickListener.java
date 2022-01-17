@@ -171,4 +171,15 @@ public class ClickListener implements Listener {
             e.setCancelled(true);
         }
     }
+
+    @EventHandler
+    public void onClickCraftingUtilsGeneral(InventoryClickEvent e) {
+
+        if (e.getView().getTitle().equals("§8Benötige Ressourcen für Emeraldhelm")) {
+            e.setCancelled(true);
+
+        } else if (e.getView().getTitle().equals("")) {
+            e.setCancelled(true);
+        }
+    }
 }
