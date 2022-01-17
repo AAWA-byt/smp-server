@@ -4,6 +4,7 @@ import online.minipixel.smp.GambleSystem.*;
 import online.minipixel.smp.Main;
 import online.minipixel.smp.ModelsParticel.Effects;
 import online.minipixel.smp.ModelsParticel.ParticelData;
+import online.minipixel.smp.Utils.CraftingUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -166,9 +167,18 @@ public class ClickListener implements Listener {
 
     @EventHandler
     public void onClickCrafting(InventoryClickEvent e) {
+        Player player =  (Player) e.getWhoClicked();
 
         if (e.getView().getTitle().equals("§8§lCrafting Rezepte")) {
             e.setCancelled(true);
+        }
+
+        if (e.getCurrentItem().getType() == Material.DIAMOND_HELMET) {
+            new CraftingUtils().utils_emerald_helmet(player);
+
+        } else if (e.getCurrentItem().getType() == Material.DIAMOND_HELMET) {
+
+
         }
     }
 
