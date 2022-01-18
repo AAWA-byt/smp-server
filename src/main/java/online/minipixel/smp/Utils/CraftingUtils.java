@@ -21,4 +21,16 @@ public class CraftingUtils {
 
         player.openInventory(ueh);
     }
+
+    public void utils_emerald_chestplate(Player player) {
+        Inventory uec;
+        uec = Bukkit.createInventory(null, 9*1, "§8Benötige Ressourcen für Emeraldbrustplatte");
+
+        uec.setItem(8, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lSchließen §7(Linksklick")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
+        uec.setItem(0, new ItemBuilder(Material.EMERALD, 8).build());
+
+        player.openInventory(uec);
+    }
 }
