@@ -59,4 +59,17 @@ public class CraftingUtils {
 
         player.openInventory(ueb);
     }
+
+    public void utils_emerald_sword(Player player) {
+        Inventory ues;
+        ues = Bukkit.createInventory(null, 9*1, "§8Benötige Ressourcen für Emeraldschwert");
+
+        ues.setItem(8, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lSchließen §7(Linksklick")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
+        ues.setItem(0, new ItemBuilder(Material.EMERALD, 2).build());
+        ues.setItem(1, new ItemBuilder(Material.STICK, 1).build());
+
+        player.openInventory(ues);
+    }
 }
