@@ -202,4 +202,13 @@ public class ClickListener implements Listener {
             e.setCancelled(true);
         }
     }
+
+    @EventHandler
+    public void onClickRessourceInventory(InventoryClickEvent e) {
+        Player player = (Player) e.getWhoClicked();
+
+        if (e.getView().getTitle().startsWith("§8Benötige Ressourcen für")) {
+            e.setCancelled(true);
+        }
+    }
 }
