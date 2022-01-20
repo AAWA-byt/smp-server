@@ -72,4 +72,20 @@ public class CraftingUtils {
 
         player.openInventory(ues);
     }
+
+    public void utils_emerald_pickaxe(Player player) {
+        Inventory uep;
+        uep = Bukkit.createInventory(null, 9*1, "§8Benötige Ressourcen für Emeraldspitzhacke");
+
+        uep.setItem(8, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lSchließen §7(Linksklick")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
+        uep.setItem(7, new ItemBuilder(Material.ARROW, 1).setDisplayname("§9§lZurück §7(Linksklick)")
+            .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
+        uep.setItem(0, new ItemBuilder(Material.EMERALD, 3).build());
+        uep.setItem(1, new ItemBuilder(Material.STICK, 2).build());
+
+        player.openInventory(uep);
+    }
 }
