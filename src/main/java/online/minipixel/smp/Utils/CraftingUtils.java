@@ -17,6 +17,9 @@ public class CraftingUtils {
         ueh.setItem(8, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lSchließen §7(Linksklick")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
+        ueh.setItem(7, new ItemBuilder(Material.ARROW, 1).setDisplayname("§9§lZurück §7(Linksklick)")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
         ueh.setItem(0, new ItemBuilder(Material.EMERALD, 5).build());
 
         player.openInventory(ueh);
@@ -27,6 +30,9 @@ public class CraftingUtils {
         uec = Bukkit.createInventory(null, 9*1, "§8Benötige Ressourcen für Emeraldbrustplatte");
 
         uec.setItem(8, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lSchließen §7(Linksklick")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
+        uec.setItem(7, new ItemBuilder(Material.ARROW, 1).setDisplayname("§9§lZurück §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
         uec.setItem(0, new ItemBuilder(Material.EMERALD, 8).build());
@@ -42,6 +48,9 @@ public class CraftingUtils {
         uel.setItem(8, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lSchließen §7(Linksklick")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
+        uel.setItem(7, new ItemBuilder(Material.ARROW, 1).setDisplayname("§9§lZurück §7(Linksklick)")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
         uel.setItem(0, new ItemBuilder(Material.EMERALD, 8).build());
 
         player.openInventory(uel);
@@ -55,6 +64,9 @@ public class CraftingUtils {
         ueb.setItem(8, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lSchließen §7(Linksklick")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
+        ueb.setItem(7, new ItemBuilder(Material.ARROW, 1).setDisplayname("§9§lZurück §7(Linksklick)")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
         ueb.setItem(0, new ItemBuilder(Material.EMERALD, 8).build());
 
         player.openInventory(ueb);
@@ -65,6 +77,9 @@ public class CraftingUtils {
         ues = Bukkit.createInventory(null, 9*1, "§8Benötige Ressourcen für Emeraldschwert");
 
         ues.setItem(8, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lSchließen §7(Linksklick")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
+        ues.setItem(7, new ItemBuilder(Material.ARROW, 1).setDisplayname("§9§lZurück §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
 
         ues.setItem(0, new ItemBuilder(Material.EMERALD, 2).build());
