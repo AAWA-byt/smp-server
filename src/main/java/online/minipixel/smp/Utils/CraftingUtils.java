@@ -33,4 +33,18 @@ public class CraftingUtils {
 
         player.openInventory(uec);
     }
+
+    public void utils_emerald_leggings(Player player) {
+        Inventory uel;
+
+        uel = Bukkit.createInventory(null, 9*1, "§8Benötige Ressourcen für Emeraldhose");
+
+        uel.setItem(8, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lSchließen §7(Linksklick")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
+        uel.setItem(0, new ItemBuilder(Material.EMERALD, 8).build());
+
+        player.openInventory(uel);
+    }
+
 }
