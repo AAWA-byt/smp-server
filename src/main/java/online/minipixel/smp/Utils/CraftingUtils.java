@@ -103,4 +103,20 @@ public class CraftingUtils {
 
         player.openInventory(uep);
     }
+
+    public void utils_lapis_pickaxe(Player player) {
+        Inventory ulp;
+        ulp = Bukkit.createInventory(null, 9*1, "§8Benötige Ressourcen für Lapisspitzhacke");
+
+        ulp.setItem(8, new ItemBuilder(Material.BARRIER, 1).setDisplayname("§c§lSchließen §7(Linksklick")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
+        ulp.setItem(7, new ItemBuilder(Material.ARROW, 1).setDisplayname("§9§lZurück §7(Linksklick)")
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).build());
+
+        ulp.setItem(0, new ItemBuilder(Material.LAPIS_LAZULI, 3).build());
+        ulp.setItem(1, new ItemBuilder(Material.STICK, 2).build());
+
+        player.openInventory(ulp);
+    }
 }
