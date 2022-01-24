@@ -28,7 +28,18 @@ public class Gamble {
                 .setLocalizedName("l1").build());
 
         Main.getGamble().setItem(12, new ItemBuilder(Material.NETHERRACK, 1).setDisplayname("§4§lNether §7(Linksklick)")
-                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 12x Diamant", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!", "").setLocalizedName("l2").build());
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 12x Diamant", "", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!",
+                        "", "§7Preise:",
+                        "§c- 64x SHROOMLIGHT",
+                        "§c- 64x GILDED_BLACKSTONE",
+                        "§c- 64x WARPED_WART_BLOCK",
+                        "§c- 64x NETHER_WART_BLOCK",
+                        "§c- 64x MAGMA_BLOCK",
+                        "§c- 64x NETHER_QUARTZ_ORE",
+                        "§c- 64x SMOOTH_BASALT",
+                        "§c- 64x OBSIDIAN",
+                        "§c- 64x CRYING_OBSIDIAN")
+                .setLocalizedName("l2").build());
 
         Main.getGamble().setItem(14, new ItemBuilder(Material.END_STONE, 1).setDisplayname("§f§lEnd §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 20x Diamant", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!", "").setLocalizedName("l3").build());
