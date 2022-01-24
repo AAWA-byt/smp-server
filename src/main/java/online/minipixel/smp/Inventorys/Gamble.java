@@ -14,7 +14,18 @@ public class Gamble {
     private static void create_gamble_menu() {
 
         Main.getGamble().setItem(10, new ItemBuilder(Material.GRASS_BLOCK, 1).setDisplayname("§a§lOverworld §7(Linksklick)")
-                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 8x Diamant", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!", "").setLocalizedName("l1").build());
+                .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 8x Diamant", "", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!",
+                        "", "§7Preise:",
+                        "§c- 64x MYCELIUM",
+                        "§c- 64x AMETHYST_BLOCK",
+                        "§c- 64x TINTED_GLASS",
+                        "§c- 64x DARK_PRISMARINE",
+                        "§c- 64x BLUE_ICE",
+                        "§c- 64x DRIPSTONE_BLOCK",
+                        "§c- 64x TUFF",
+                        "§c- 64x CLAY",
+                        "§c- 64x SNOW_BLOCK")
+                .setLocalizedName("l1").build());
 
         Main.getGamble().setItem(12, new ItemBuilder(Material.NETHERRACK, 1).setDisplayname("§4§lNether §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLore("", "§7Preis: 12x Diamant", "§cDu musst den benötigten Preis", "§cin der Hand halten, wenn", "§cdu die Lotterie öffnest!", "").setLocalizedName("l2").build());
