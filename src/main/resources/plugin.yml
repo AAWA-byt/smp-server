@@ -33,9 +33,3 @@ commands:
     description: command to open the enderchest
     aliases:
       - ec
-
-  vip:
-    permission: minipixel.smp.command.vip
-    description: command for vip players and rang up
-    aliases:
-      - v
