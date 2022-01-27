@@ -1,9 +1,7 @@
 package online.minipixel.smp.Listener;
 
 import online.minipixel.smp.GambleSystem.*;
-import online.minipixel.smp.Inventorys.Crafting;
 import online.minipixel.smp.Main;
-import online.minipixel.smp.ModelsParticel.Effects;
 import online.minipixel.smp.ModelsParticel.ParticelData;
 import online.minipixel.smp.Utils.CraftingUtils;
 import org.bukkit.Bukkit;
@@ -12,7 +10,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
-import org.bukkit.inventory.Inventory;
 
 public class ClickListener implements Listener {
 
@@ -55,63 +52,6 @@ public class ClickListener implements Listener {
                 player.closeInventory();
                 player.updateInventory();
 
-            }
-        }
-    }
-
-    @EventHandler
-    public void onClickVip(InventoryClickEvent e) {
-        Player player = (Player) e.getWhoClicked();
-
-        if (e.getView().getTitle().equals("§8§lVip Menü")) {
-            e.setCancelled(true);
-            if (e.getCurrentItem() != null) {
-
-                if (e.getCurrentItem().equals(Material.COMPASS)) {
-                    player.closeInventory();
-                    player.updateInventory();
-                    player.openInventory(Main.getTeleporter());
-
-                } else if (e.getCurrentItem().equals(Material.TOTEM_OF_UNDYING)) {
-                    player.closeInventory();
-                    player.updateInventory();
-
-                    ParticelData particelData_totem = new ParticelData(player.getUniqueId());
-
-                    if (particelData_totem.hasID()) {
-                        particelData_totem.endTask();
-                        particelData_totem.removeID();
-
-                    }
-                    Effects trails = new Effects(player);
-                    trails.startTotem();
-
-                } else if (e.getCurrentItem().equals(Material.DRAGON_EGG)) {
-                    player.closeInventory();
-                    player.updateInventory();
-
-                    ParticelData particelData_dragon = new ParticelData(player.getUniqueId());
-
-                    if (particelData_dragon.hasID()) {
-                        particelData_dragon.endTask();
-                        particelData_dragon.removeID();
-
-                    }
-                    Effects trails = new Effects(player);
-                    trails.startDragonBreath();
-
-                } else if (e.getCurrentItem().equals(Material.BARRIER)) {
-                    player.closeInventory();
-                    player.updateInventory();
-
-                    ParticelData particelData = new ParticelData(player.getUniqueId());
-
-                    if (particelData.hasID()) {
-                        particelData.endTask();
-                        particelData.removeID();
-
-                    }
-                }
             }
         }
     }
