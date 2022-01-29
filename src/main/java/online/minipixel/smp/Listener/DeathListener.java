@@ -16,6 +16,7 @@ public class DeathListener implements Listener {
     public void onDeath(PlayerDeathEvent e) {
         Player player = e.getPlayer();
 
+        e.setDeathMessage(Prefix.Plugin_Prefix + "§f");
         player.sendMessage(Prefix.Plugin_Prefix + "§7Du bist bei §a" + player.getLocation().getBlockX() + " " + player.getLocation().getBlockY() + " " +
                 player.getLocation().getBlockZ() + " §7gestorben.");
 
