@@ -20,7 +20,7 @@ public class Menu {
         Main.getMenu().setItem(13, new ItemBuilder(Material.DIAMOND, 1).setDisplayname("§6§lLotterie §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLocalizedName("l2").build());
 
-
+        //TODO: add new feature soon
 
         Main.getMenu().setItem(26, new ItemBuilder(Material.BARRIER,1).setDisplayname("§c§lSchließen §7(Linksklick)")
                 .addItemFlags(ItemFlag.HIDE_ATTRIBUTES).setLocalizedName("l4").build());
