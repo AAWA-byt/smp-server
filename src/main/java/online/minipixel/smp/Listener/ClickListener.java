@@ -43,10 +43,6 @@ public class ClickListener implements Listener {
                 player.updateInventory();
                 player.openInventory(Main.getGamble());
 
-            } else if (e.getCurrentItem().getType() == Material.CRAFTING_TABLE) {
-                player.closeInventory();
-                player.updateInventory();
-
             } else if (e.getCurrentItem().getType() == Material.BARRIER) {
                 player.closeInventory();
                 player.updateInventory();
