@@ -9,6 +9,8 @@ import org.bukkit.inventory.ItemFlag;
 
 public class CraftingUtils {
 
+    /*
+
     public void utils_emerald_helmet(Player player) {
         Inventory ueh;
         ueh = Bukkit.createInventory(null, 9*1, "§8Benötige Ressourcen für Emeraldhelm");
@@ -119,4 +121,6 @@ public class CraftingUtils {
 
         player.openInventory(ulp);
     }
+
+     */
 }
