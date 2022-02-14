@@ -36,7 +36,7 @@ public final class Main extends JavaPlugin {
     @Override
     public void onLoad() {
         configBackpacks = new ConfigBackpacks();
-    }
+    } //loading backpack config
 
     @Override
     public void onEnable() {
@@ -57,6 +57,7 @@ public final class Main extends JavaPlugin {
         ItemManager.initItems();
 
         //Inventorys
+        //creating inventory that are often used
 
         menu = Bukkit.createInventory(null, 9*3, "§8§lMenü"); //created main menu for the whole server
         Menu.open_main_menu();
@@ -126,7 +127,7 @@ public final class Main extends JavaPlugin {
         log(ChatColor.RED + "Das Plugin ist deaktiviert!");
     }
 
-    public void log(String text) {
+    public void log(String text) { //log method for enable and disable the plugin
 
         Bukkit.getConsoleSender().sendMessage(Prefix.System_Prefix + text);
     }
