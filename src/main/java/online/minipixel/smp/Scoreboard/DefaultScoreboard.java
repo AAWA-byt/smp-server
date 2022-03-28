@@ -14,7 +14,7 @@ public class DefaultScoreboard extends ScoreboardBuilder {
     public static String player_play_time = "%%";
 
     public DefaultScoreboard(Player player, String displayName) {
-        super(player, "§7§l<< §4§lMiniPixel §7§l>>");
+        super(player, "§7§l<< §2§lSMP §7§l>>");
        socialId = 0;
         run();
     }
@@ -26,7 +26,7 @@ public class DefaultScoreboard extends ScoreboardBuilder {
         player_on_network = PlaceholderAPI.setPlaceholders(player, player_on_network);
         player_play_time = PlaceholderAPI.setPlaceholders(player, player_play_time);
 
-        setScore("§cminipixel.online", 0);
+        setScore("§chttps://github.com/AAWA-byt", 0);
         setScore("§d", 1);
         setScore("§7Tode: §c" + player.getStatistic(Statistic.DEATHS), 2);
         setScore("§7Kills: §c" + player.getStatistic(Statistic.PLAYER_KILLS), 3);

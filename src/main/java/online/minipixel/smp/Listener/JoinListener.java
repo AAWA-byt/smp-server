@@ -14,9 +14,8 @@ public class JoinListener implements Listener {
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
         Player player = e.getPlayer();
-        new JoinMethod().defaultJoin(player);
 
-        new DefaultScoreboard(player, "§7§l>> §4§lMiniPixel §7§l<<");
+        new DefaultScoreboard(player, "§7§l<< §2§lSMP §7§l>>");
 
         e.setJoinMessage("§a>> §7" + player.getName());
     }
@@ -26,11 +25,10 @@ public class JoinListener implements Listener {
         Player player = e.getPlayer();
 
         if (!player.hasPlayedBefore()) {
-            new JoinMethod().firstJoin(player);
             new JoinMethod().equip(player);
             e.setJoinMessage(null);
             Bukkit.getOnlinePlayers().forEach(player1 -> {
-                player1.sendMessage(Prefix.Plugin_Prefix + "§7Willkommen auf §4minipixel.online §7" + e.getPlayer().getName() + ".");
+                player1.sendMessage(Prefix.Plugin_Prefix + "§7Willkommen auf dem §2SMP §7Server " + e.getPlayer().getName() + ".");
             });
         }
     }
