@@ -4,6 +4,6 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 # Getting Started 
 
 ## Requirements
-- Java 17
-- Minecraft Java Server 
+- [Java 17](https://www.oracle.com/java/technologies/downloads/)
+- Minecraft Java Server (recommend [Paper](https://papermc.io/)
 - Device for your server 
