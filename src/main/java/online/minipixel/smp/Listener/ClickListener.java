@@ -109,22 +109,6 @@ public class ClickListener implements Listener {
             e.setCancelled(true);
         }
 
-        if (e.getCurrentItem().getType() == Material.DIAMOND_HELMET) {
-            new CraftingUtils().utils_emerald_helmet(player);
-
-        } else if (e.getCurrentItem().getType() == Material.DIAMOND_CHESTPLATE) {
-            new CraftingUtils().utils_emerald_chestplate(player);
-
-        } else if (e.getCurrentItem().getType() == Material.DIAMOND_LEGGINGS) {
-            new CraftingUtils().utils_emerald_leggings(player);
-
-        } else if (e.getCurrentItem().getType() == Material.DIAMOND_BOOTS) {
-            new CraftingUtils().utils_emerald_boots(player);
-
-        } else if (e.getCurrentItem().getType() == Material.DIAMOND_SWORD) {
-            new CraftingUtils().utils_emerald_sword(player);
-
-        }
     }
 
     @EventHandler
