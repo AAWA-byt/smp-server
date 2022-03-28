@@ -16,7 +16,7 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 ## Features 
 | Commands      | Permissions    
 | ------------- | ------------- | 
-| /menu         |  minipixel.smp.commands.menu | 
-| /backpack  | minipixel.smp.commands.backpack  | 
-| /warp             |      minipixel.smp.commands.warp         |            
-| /enderchest | minipixel.smp.commands.ec |
+| */menu*         |  minipixel.smp.commands.menu | 
+| */backpack*  | minipixel.smp.commands.backpack  | 
+| */warp*             |      minipixel.smp.commands.warp         |            
+| */enderchest* | minipixel.smp.commands.ec |
