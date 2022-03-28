@@ -4,3 +4,5 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 # Getting Started 
 
 ## Requirements
+- Minecraft Java Server
+- Java 17
