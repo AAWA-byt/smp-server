@@ -14,8 +14,8 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 - Start your server 
 
 ## Features 
-| Commands      | Permissions    | Description |
-| ------------- | ------------- | ----------- |
-| /menu         |  minipixel.smp.commands.menu | Opens a control menu|
-| /backpack  | minipixel.smp.commands.backpack  | Opens a personal backpack|
-|               |               |             |
+| Commands      | Permissions    
+| ------------- | ------------- | 
+| /menu         |  minipixel.smp.commands.menu | 
+| /backpack  | minipixel.smp.commands.backpack  | 
+|               |               |            
