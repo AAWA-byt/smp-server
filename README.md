@@ -39,6 +39,6 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 
 
 # License
-
+This project is licensed under the Apache License 2.0 - see the LICENSE.md file for details.
 
 
