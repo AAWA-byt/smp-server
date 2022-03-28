@@ -9,7 +9,7 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 - Device for your server (e.g. vServer)
 
 ## Install
-- Download the plugin from the release page of this repository 
+- Download the plugin from the [release page](https://github.com/AAWA-byt/smp-server/releases) of this repository 
 - Put the **.jar** File in the **/plugins** directory of your server
 - Start your server 
 
