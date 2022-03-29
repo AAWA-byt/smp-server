@@ -34,6 +34,9 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 
 ![2022-03-28 21_04_45-Minecraft 1 18 1 - Multiplayer (3rd-party Server)](https://user-images.githubusercontent.com/76434239/160469242-eb678644-e0da-4b57-a528-2b4c9318eb3b.png)
 
+
+## Help
+If there should be any problems please leave an issue and I will look forward to help you.
 # Author
 - [AAWA-byt](https://www.github.com/AAWA-byt)
 
