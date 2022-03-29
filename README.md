@@ -36,7 +36,7 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 
 
 ## Help
-If there should be any problems please leave an issue and I will look forward to help you.
+If there should be any problems please leave an [issue](https://github.com/AAWA-byt/smp-server/issues) and I will look forward to help you.
 # Author
 - [AAWA-byt](https://www.github.com/AAWA-byt)
 
