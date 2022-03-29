@@ -1,6 +1,7 @@
 # smp-server
 This project is a Java plugin for a single survival server (SMP) with many different features. This plugin was used for the minipixel.online smp server which is now offline.
 
+**Plugin is still work!**
 # Getting Started 
 
 ## Requirements
