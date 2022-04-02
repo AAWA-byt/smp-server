@@ -41,6 +41,17 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 
 ![2022-04-02 14_44_24-Window](https://user-images.githubusercontent.com/76434239/161385113-49497c04-7f9a-4bc7-a3bb-1de4816d59ff.png)
 
+| Rang          | Permission        |
+|---------------|-------------------|
+| Player        | none              |
+| VIP           | minipixel.vip     |
+| VIP+          | minipixel.vip+    |
+| Builder       | minipixel.builder |
+| Supporter     | minipixel.sup     |
+| Developer     | minipixel.dev     |
+| Moderator     | minipixel.mod     |
+| Administrator | minipixel.admin   |
+
 ## Help
 If there should be any problems please leave an [issue](https://github.com/AAWA-byt/smp-server/issues) and I will look forward to help you.
 # Author
