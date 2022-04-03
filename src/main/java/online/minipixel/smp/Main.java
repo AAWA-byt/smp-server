@@ -44,10 +44,10 @@ public final class Main extends JavaPlugin {
         log("--------------------------------------");
         log(ChatColor.BLUE + "" + ChatColor.BOLD + "SMP " + ChatColor.GRAY + "wird geladen...");
         log("--------------------------------------");
-        log("Developer: " + ChatColor.GREEN + "AAWA");
-        log("E-Mail: " + ChatColor.GREEN + "admin.aaron@minipixel.online");
-        log("Website: " + ChatColor.GREEN + "minipixel.online");
-        log("MC-Server: " + ChatColor.GREEN + "minipixel.online");
+        log("Developer: " + ChatColor.GREEN + "AAWA-byt");
+        log("E-Mail: " + ChatColor.GREEN + "aar.wag@icloud.com");
+        log("Website: " + ChatColor.GREEN + "https://www.github.com/AAWA-byt/smp-server/");
+        log("MC-Server: " + ChatColor.GREEN + "----");
         log("--------------------------------------");
 
         INSTANCE = this;
