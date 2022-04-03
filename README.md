@@ -33,8 +33,24 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 ## Lottery
 ![2022-03-28 21_04_01-Minecraft 1 18 1 - Multiplayer (3rd-party Server)](https://user-images.githubusercontent.com/76434239/160469220-c2178620-70fb-489a-be29-42acd844e631.png)
 
+![2022-04-02 14_41_31-Window](https://user-images.githubusercontent.com/76434239/161385088-2475808e-582e-4f83-a74c-ca59bacc3d65.png)
+
 ![2022-03-28 21_04_45-Minecraft 1 18 1 - Multiplayer (3rd-party Server)](https://user-images.githubusercontent.com/76434239/160469242-eb678644-e0da-4b57-a528-2b4c9318eb3b.png)
 
+## Scoreboard
+
+![2022-04-02 14_44_24-Window](https://user-images.githubusercontent.com/76434239/161385113-49497c04-7f9a-4bc7-a3bb-1de4816d59ff.png)
+
+| Rang          | Permission        |
+|---------------|-------------------|
+| Player        | none              |
+| VIP           | minipixel.vip     |
+| VIP+          | minipixel.vip+    |
+| Builder       | minipixel.builder |
+| Supporter     | minipixel.sup     |
+| Developer     | minipixel.dev     |
+| Moderator     | minipixel.mod     |
+| Administrator | minipixel.admin   |
 
 ## Help
 If there should be any problems please leave an [issue](https://github.com/AAWA-byt/smp-server/issues) and I will look forward to help you.
