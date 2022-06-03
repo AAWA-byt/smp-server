@@ -52,6 +52,8 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 | Moderator     | minipixel.mod     |
 | Administrator | minipixel.admin   |
 
+As a permission system I recommend .[LuckPerms](https://luckperms.net)
+
 ## Help
 If there should be any problems please leave an [issue](https://github.com/AAWA-byt/smp-server/issues) and I will look forward to help you.
 
