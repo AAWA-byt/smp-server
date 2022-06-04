@@ -4,7 +4,6 @@ import online.minipixel.smp.Backpack.BackpackManager;
 import online.minipixel.smp.Configs.ConfigBackpacks;
 import online.minipixel.smp.Commands.*;
 import online.minipixel.smp.Configs.ConfigWarps;
-import online.minipixel.smp.CustomItems.ItemManager;
 import online.minipixel.smp.Inventorys.*;
 import online.minipixel.smp.Listener.*;
 import online.minipixel.smp.MessageAPI.Prefix;
@@ -54,8 +53,6 @@ public final class Main extends JavaPlugin {
         INSTANCE = this;
         backpackManager = new BackpackManager();
         warps = new ConfigWarps("warps.yml", getDataFolder());
-        ItemManager.initItems();
-
         //Inventorys
         //creating inventory that are often used
 
@@ -71,8 +68,6 @@ public final class Main extends JavaPlugin {
         Gamble.open_gamble_menu();
 
         admin = Bukkit.createInventory(null, 9*3, "§4§lAdmin");
-        Admin.open_admin_menu();
-
         //PlaceholderAPI
         log(ChatColor.RED + "PlaceholderAPI wird geladen...");
         log("");
@@ -140,7 +135,6 @@ public final class Main extends JavaPlugin {
     public static ConfigWarps getWarps() {return warps;}
     public static Inventory getTeleporter() {return teleporter;}
     public static Inventory getGamble() {return gamble;}
-    public static Inventory getAdmin() {return admin;}
 
     public ItemStack getItem(Player player) {
         ItemStack itemStack = new ItemStack(Material.PLAYER_HEAD);
