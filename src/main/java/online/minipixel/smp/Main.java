@@ -22,13 +22,11 @@ public final class Main extends JavaPlugin {
 
     public static Main INSTANCE;
     private static ConfigWarps warps;
-
     private static Inventory menu;
     private static Inventory vip;
     private static Inventory teleporter;
     private static Inventory gamble;
     private static Inventory admin;
-
     private ConfigBackpacks configBackpacks;
     private BackpackManager backpackManager;
 
