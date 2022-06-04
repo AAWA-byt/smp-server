@@ -1,5 +1,6 @@
 package online.minipixel.smp.Configs;
 
+import online.minipixel.smp.Main;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;
@@ -11,7 +12,7 @@ public class ConfigBackpacks {
     private final YamlConfiguration config;
 
     public ConfigBackpacks() {
-        File dir = new File("./plugins/Survival/");
+        File dir = new File(String.valueOf(Main.getINSTANCE().getDataFolder()));
 
         if (!dir.exists()) {
             dir.mkdirs();

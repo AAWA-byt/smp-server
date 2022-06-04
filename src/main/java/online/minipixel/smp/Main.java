@@ -4,6 +4,7 @@ import online.minipixel.smp.Backpack.BackpackManager;
 import online.minipixel.smp.Configs.ConfigBackpacks;
 import online.minipixel.smp.Commands.*;
 import online.minipixel.smp.Configs.ConfigWarps;
+import online.minipixel.smp.CustomItems.ItemManager;
 import online.minipixel.smp.Inventorys.*;
 import online.minipixel.smp.Listener.*;
 import online.minipixel.smp.MessageAPI.Prefix;
@@ -22,11 +23,13 @@ public final class Main extends JavaPlugin {
 
     public static Main INSTANCE;
     private static ConfigWarps warps;
+
     private static Inventory menu;
     private static Inventory vip;
     private static Inventory teleporter;
     private static Inventory gamble;
     private static Inventory admin;
+
     private ConfigBackpacks configBackpacks;
     private BackpackManager backpackManager;
 
@@ -51,6 +54,7 @@ public final class Main extends JavaPlugin {
         INSTANCE = this;
         backpackManager = new BackpackManager();
         warps = new ConfigWarps("warps.yml", getDataFolder());
+        ItemManager.initItems();
 
         //Inventorys
         //creating inventory that are often used
