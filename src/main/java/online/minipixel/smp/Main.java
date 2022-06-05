@@ -110,8 +110,6 @@ public final class Main extends JavaPlugin {
         log("--------------------------------------");
         log(ChatColor.GREEN + "Das Plugin wurde geladen!");
         log("--------------------------------------");
-
-
     }
 
     @Override
@@ -136,15 +134,4 @@ public final class Main extends JavaPlugin {
     public static Inventory getTeleporter() {return teleporter;}
     public static Inventory getGamble() {return gamble;}
 
-    public ItemStack getItem(Player player) {
-        ItemStack itemStack = new ItemStack(Material.PLAYER_HEAD);
-        SkullMeta skullMeta = (SkullMeta) itemStack.getItemMeta();
-        skullMeta.setOwningPlayer(Bukkit.getOfflinePlayer(player.getUniqueId()));
-        skullMeta.setDisplayName("§a" + player.getName());
-        skullMeta.setLocalizedName(player.getName());
-        skullMeta.setLore(Arrays.asList("§7Klicke um dich zu diesem Spieler zu teleportieren!"));
-        itemStack.setItemMeta(skullMeta);
-
-        return itemStack;
-    }
 }
