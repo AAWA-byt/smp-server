@@ -14,25 +14,25 @@ public class ChatListener implements Listener {
 
         Player player = e.getPlayer();
 
-        if (player.hasPermission("minipixel.admin")) {
+        if (player.hasPermission("smp.admin")) {
             e.setFormat("§4Admin §8| §7" + player.getName() + " §8>> §f" + ChatColor.translateAlternateColorCodes('&', e.getMessage()));
 
-        } else if (player.hasPermission("minipixel.mod")){
+        } else if (player.hasPermission("smp.mod")){
             e.setFormat("§bMod §8| §7" + player.getName() + " §8>> §f" + ChatColor.translateAlternateColorCodes('&', e.getMessage()));
 
-        } else if (player.hasPermission("minipixel.dev")) {
+        } else if (player.hasPermission("smp.dev")) {
             e.setFormat("§aDev §8| §7" + player.getName() + " §8>> §f" + ChatColor.translateAlternateColorCodes('&', e.getMessage()));
 
-        } else if (player.hasPermission("minipixel.sup")){
+        } else if (player.hasPermission("smp.sup")){
             e.setFormat("§9Sup §8| §7" + player.getName() + " §8>> §f" + ChatColor.translateAlternateColorCodes('&', e.getMessage()));
 
-        } else if (player.hasPermission("minipixel.builder")) {
+        } else if (player.hasPermission("smp.builder")) {
             e.setFormat("§eBuilder §8| §7" + player.getName() + " §8>> §f" + ChatColor.translateAlternateColorCodes('&', e.getMessage()));
 
-        } else if (player.hasPermission("minipixel.vip+")) {
+        } else if (player.hasPermission("smp.vip+")) {
             e.setFormat("§dVIP§6§l+ §8| §7" + player.getName() + " §8>> §f" + ChatColor.translateAlternateColorCodes('&', e.getMessage()));
 
-        } else if (player.hasPermission("minipixel.vip")){
+        } else if (player.hasPermission("smp.vip")){
             e.setFormat("§dVIP §8| §7" + player.getName() + " §8>> §f" + e.getMessage());
 
         } else {
