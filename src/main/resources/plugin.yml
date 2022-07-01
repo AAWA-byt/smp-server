@@ -10,26 +10,26 @@ dependencies: PlaceholderAPI
 commands:
 
   menu:
-    permission: minipixel.smp.commands.menu
+    permission: smp.commands.menu
     description: menu command for smp server
 
   backpack:
-    permission: minipixel.smp.commands.backpack
+    permission: smp.commands.backpack
     description: backpack command for smp server
     aliases:
       - bp
       - b
 
   team:
-    permission: minipixel.smp.commands.team
+    permission: smp.commands.team
     description: team command for the rang builder+
 
   warp:
-    permission: minipixel.smp.commands.warp
+    permission: smp.commands.warp
     description: command for the smp warp system
 
   enderchest:
-    permission: minipixel.smp.commands.ec
+    permission: smp.commands.ec
     description: command to open the enderchest
     aliases:
       - ec
