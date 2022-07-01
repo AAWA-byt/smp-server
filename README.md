@@ -5,7 +5,7 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 # Getting Started 
 
 ## Requirements
-- [Java 17](https://www.oracle.com/java/technologies/downloads/)
+- [Java 18](https://www.oracle.com/java/technologies/downloads/)
 - Minecraft 1.18.* Java Server (recommend [Paper](https://papermc.io/))
 - Device for your server (e.g. vServer)
 
@@ -17,10 +17,10 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 ## Features 
 | Commands      | Permissions    
 | ------------- | ------------- | 
-| */menu*         |  minipixel.smp.commands.menu | 
-| */backpack*  | minipixel.smp.commands.backpack  | 
-| */warp*             |      minipixel.smp.commands.warp         |            
-| */enderchest* | minipixel.smp.commands.ec |
+| */menu*         |  smp.commands.menu | 
+| */backpack*  | smp.commands.backpack  | 
+| */warp*             |      smp.commands.warp         |            
+| */enderchest* | smp.commands.ec |
 
 ## Menu
 ![2022-03-28 21_02_32-Minecraft 1 18 1 - Multiplayer (3rd-party Server)](https://user-images.githubusercontent.com/76434239/160469082-6d441b1c-4264-4495-8f68-6b6b86baee72.png)
@@ -44,13 +44,13 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 | Rang          | Permission        |
 |---------------|-------------------|
 | Player        | none              |
-| VIP           | minipixel.vip     |
-| VIP+          | minipixel.vip+    |
-| Builder       | minipixel.builder |
-| Supporter     | minipixel.sup     |
-| Developer     | minipixel.dev     |
-| Moderator     | minipixel.mod     |
-| Administrator | minipixel.admin   |
+| VIP           | smp.vip     |
+| VIP+          | smp.vip+    |
+| Builder       | smp.builder |
+| Supporter     | smp.sup     |
+| Developer     | smp.dev     |
+| Moderator     | smp.mod     |
+| Administrator | smp.admin   |
 
 As a permission system I recommend [LuckPerms](https://luckperms.net).
 
