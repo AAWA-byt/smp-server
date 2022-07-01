@@ -17,10 +17,10 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 ## Features 
 | Commands      | Permissions    
 | ------------- | ------------- | 
-| */menu*         |  minipixel.smp.commands.menu | 
-| */backpack*  | minipixel.smp.commands.backpack  | 
-| */warp*             |      minipixel.smp.commands.warp         |            
-| */enderchest* | minipixel.smp.commands.ec |
+| */menu*         |  smp.commands.menu | 
+| */backpack*  | smp.commands.backpack  | 
+| */warp*             |      smp.commands.warp         |            
+| */enderchest* | smp.commands.ec |
 
 ## Menu
 ![2022-03-28 21_02_32-Minecraft 1 18 1 - Multiplayer (3rd-party Server)](https://user-images.githubusercontent.com/76434239/160469082-6d441b1c-4264-4495-8f68-6b6b86baee72.png)
