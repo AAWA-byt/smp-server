@@ -1,7 +1,7 @@
 name: smp-server
 version: '${project.version}'
 main: earth.aaronwagner.smp.Main
-api-version: 1.18
+api-version: 1.19
 authors: [ AAWA-byt ]
 description: smp server plugin
 website: aaronwagner.earth
