@@ -1,10 +1,10 @@
-name: MiniPixel-SMP
+name: smp-server
 version: '${project.version}'
-main: online.minipixel.smp.Main
+main: earth.aaronwagner.smp.Main
 api-version: 1.18
-authors: [ AAWA ]
-description: minipixel smp plugin
-website: minipixel.online
+authors: [ AAWA-byt ]
+description: smp server plugin
+website: aaronwagner.earth
 dependencies: PlaceholderAPI
 
 commands:
