@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="243b781f-ee93-488d-8805-48089e1b317c" name="Changes" comment=":memo: refactored main directory name">
+    <list default="true" id="243b781f-ee93-488d-8805-48089e1b317c" name="Changes" comment=":zap: idea update">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
@@ -32,14 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656715959567</updated>
       <workItem from="1656715971974" duration="234000" />
-      <workItem from="1656716333102" duration="313000" />
+      <workItem from="1656716333102" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary=":memo: refactored main directory name">
       <created>1656716652716</created>
@@ -58,7 +62,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656716652716</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":zap: idea update">
+      <created>1656716858471</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656716858471</updated>
+    </task>
+    <task id="LOCAL-00003" summary=":zap: idea update">
+      <created>1656716967766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656716967766</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +95,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":memo: refactored main directory name" />
-    <option name="LAST_COMMIT_MESSAGE" value=":memo: refactored main directory name" />
+    <MESSAGE value=":zap: idea update" />
+    <option name="LAST_COMMIT_MESSAGE" value=":zap: idea update" />
   </component>
 </project>
