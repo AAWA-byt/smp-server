@@ -4,12 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="243b781f-ee93-488d-8805-48089e1b317c" name="Changes" comment=":fire: removed old imports">
-      <change beforePath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Commands/WarpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Commands/WarpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Listener/ChatListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Listener/ChatListener.java" afterDir="false" />
+    <list default="true" id="243b781f-ee93-488d-8805-48089e1b317c" name="Changes" comment=":arrow_up: updated to JAVA 18">
+      <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/ItemManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/EmeraldBoots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/EmeraldChestplatte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/EmeraldHelmet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/EmeraldLeggings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/EmeraldPickaxe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/EmeraldSword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/Knockbackstick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/Lapispickaxe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/ObsidianSword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/Redstoneboots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Configs/ConfigBackpacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Configs/ConfigBackpacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Listener/ClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Listener/ClickListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Scoreboard/DefaultScoreboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Scoreboard/DefaultScoreboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +49,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mail/IdeaProjects/smp-server/src/main/java/earth/aaronwagner/smp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mail\IdeaProjects\smp-server\src\main\java\earth\aaronwagner\smp" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +79,13 @@
       <option name="presentableId" value="Default" />
       <updated>1656715959567</updated>
       <workItem from="1656715971974" duration="234000" />
-      <workItem from="1656716333102" duration="1434000" />
+      <workItem from="1656716333102" duration="2176000" />
+      <workItem from="1657221976621" duration="585000" />
+      <workItem from="1657222640776" duration="2027000" />
+      <workItem from="1657225126341" duration="730000" />
+      <workItem from="1657226010675" duration="1462000" />
+      <workItem from="1657231317162" duration="139000" />
+      <workItem from="1657235574854" duration="462000" />
     </task>
     <task id="LOCAL-00001" summary=":memo: refactored main directory name">
       <created>1656716652716</created>
@@ -117,7 +143,56 @@
       <option name="project" value="LOCAL" />
       <updated>1656717652465</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=":fire: removed old imports">
+      <created>1656717788716</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656717788716</updated>
+    </task>
+    <task id="LOCAL-00010" summary=":passport_control: updated chat permissions">
+      <created>1656717830150</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656717830150</updated>
+    </task>
+    <task id="LOCAL-00011" summary=":passport_control: updated scoreboard permissions">
+      <created>1656717846164</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656717846164</updated>
+    </task>
+    <task id="LOCAL-00012" summary=":passport_control: updated command permissions">
+      <created>1656717854933</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656717854933</updated>
+    </task>
+    <task id="LOCAL-00013" summary=":passport_control: updated warp command permissions">
+      <created>1656717892313</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1656717892313</updated>
+    </task>
+    <task id="LOCAL-00014" summary=":zap: update from idea">
+      <created>1656717906955</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656717906955</updated>
+    </task>
+    <task id="LOCAL-00015" summary=":arrow_up: updated to JAVA 18">
+      <created>1656718064368</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1656718064368</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,8 +215,13 @@
     <MESSAGE value=":zap: idea update" />
     <MESSAGE value=":arrow_up: updatet paper version to 1.19 maybe :bug: will appear" />
     <MESSAGE value=":arrow_up: changed api version in plugin.yml (#4)" />
-    <MESSAGE value=":zap: update from idea" />
     <MESSAGE value=":fire: removed old imports" />
-    <option name="LAST_COMMIT_MESSAGE" value=":fire: removed old imports" />
+    <MESSAGE value=":passport_control: updated chat permissions" />
+    <MESSAGE value=":passport_control: updated scoreboard permissions" />
+    <MESSAGE value=":passport_control: updated command permissions" />
+    <MESSAGE value=":passport_control: updated warp command permissions" />
+    <MESSAGE value=":zap: update from idea" />
+    <MESSAGE value=":arrow_up: updated to JAVA 18" />
+    <option name="LAST_COMMIT_MESSAGE" value=":arrow_up: updated to JAVA 18" />
   </component>
 </project>
