@@ -26,7 +26,7 @@ public class DefaultScoreboard extends ScoreboardBuilder {
         player_on_network = PlaceholderAPI.setPlaceholders(player, player_on_network);
         player_play_time = PlaceholderAPI.setPlaceholders(player, player_play_time);
 
-        setScore("§chttps://github.com/AAWA-byt", 0);
+        setScore("§chttps://aaronwagner.earth", 0);
         setScore("§d", 1);
         setScore("§7Tode: §c" + player.getStatistic(Statistic.DEATHS), 2);
         setScore("§7Kills: §c" + player.getStatistic(Statistic.PLAYER_KILLS), 3);
