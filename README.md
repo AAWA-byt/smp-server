@@ -5,7 +5,7 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 # Getting Started 
 
 ## Requirements
-- [Java 18](https://www.oracle.com/java/technologies/downloads/)
+- [Java 16](https://www.oracle.com/java/technologies/downloads/)
 - Minecraft 1.18.* Java Server (recommend [Paper](https://papermc.io/))
 - Device for your server (e.g. vServer)
 
