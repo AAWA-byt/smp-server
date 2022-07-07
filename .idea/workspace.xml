@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="243b781f-ee93-488d-8805-48089e1b317c" name="Changes" comment=":arrow_up: updated to JAVA 18">
+    <list default="true" id="243b781f-ee93-488d-8805-48089e1b317c" name="Changes" comment=":zap: changed config path">
       <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/ItemManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/EmeraldBoots.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/EmeraldChestplatte.java" afterDir="false" />
@@ -16,12 +16,7 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/Lapispickaxe.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/ObsidianSword.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/CustomItems/Items/Redstoneboots.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Configs/ConfigBackpacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Configs/ConfigBackpacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Listener/ClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Listener/ClickListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Scoreboard/DefaultScoreboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Scoreboard/DefaultScoreboard.java" afterDir="false" />
     </list>
@@ -85,7 +80,7 @@
       <workItem from="1657225126341" duration="730000" />
       <workItem from="1657226010675" duration="1462000" />
       <workItem from="1657231317162" duration="139000" />
-      <workItem from="1657235574854" duration="462000" />
+      <workItem from="1657235574854" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary=":memo: refactored main directory name">
       <created>1656716652716</created>
@@ -192,7 +187,28 @@
       <option name="project" value="LOCAL" />
       <updated>1656718064368</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=":zap: updated from idea">
+      <created>1657236268186</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657236268186</updated>
+    </task>
+    <task id="LOCAL-00017" summary=":fire: removed wrong import">
+      <created>1657236328004</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657236328004</updated>
+    </task>
+    <task id="LOCAL-00018" summary=":zap: changed config path">
+      <created>1657236379251</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1657236379251</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +238,9 @@
     <MESSAGE value=":passport_control: updated warp command permissions" />
     <MESSAGE value=":zap: update from idea" />
     <MESSAGE value=":arrow_up: updated to JAVA 18" />
-    <option name="LAST_COMMIT_MESSAGE" value=":arrow_up: updated to JAVA 18" />
+    <MESSAGE value=":zap: updated from idea" />
+    <MESSAGE value=":fire: removed wrong import" />
+    <MESSAGE value=":zap: changed config path" />
+    <option name="LAST_COMMIT_MESSAGE" value=":zap: changed config path" />
   </component>
 </project>
