@@ -7,6 +7,7 @@ import earth.aaronwagner.smp.Commands.MenuCommand;
 import earth.aaronwagner.smp.Commands.WarpCommand;
 import earth.aaronwagner.smp.Configs.ConfigBackpacks;
 import earth.aaronwagner.smp.Configs.ConfigWarps;
+import earth.aaronwagner.smp.CustomItems.ItemManager;
 import earth.aaronwagner.smp.Inventorys.Gamble;
 import earth.aaronwagner.smp.Inventorys.Menu;
 import earth.aaronwagner.smp.Inventorys.Vip;
@@ -17,6 +18,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.io.File;
 import java.util.Arrays;
 
 public final class Main extends JavaPlugin {
@@ -54,6 +56,8 @@ public final class Main extends JavaPlugin {
         INSTANCE = this;
         backpackManager = new BackpackManager();
         warps = new ConfigWarps("warps.yml", getDataFolder());
+        ItemManager.initItems();
+
         //Inventorys
         //creating inventory that are often used
 
