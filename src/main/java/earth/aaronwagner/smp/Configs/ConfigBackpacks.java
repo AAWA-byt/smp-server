@@ -12,7 +12,7 @@ public class ConfigBackpacks {
     private final YamlConfiguration config;
 
     public ConfigBackpacks() {
-        File dir = new File(String.valueOf(Main.getINSTANCE().getDataFolder()));
+        File dir = new File("./plugins/smp-server/");
 
         if (!dir.exists()) {
             dir.mkdirs();
