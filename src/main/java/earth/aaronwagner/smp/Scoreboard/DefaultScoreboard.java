@@ -90,25 +90,25 @@ public class DefaultScoreboard extends ScoreboardBuilder {
                 setScore("§7Kills (Mobs): §c" + player.getStatistic(Statistic.MOB_KILLS), 4);
                 setScore("§7Online: §c" + Bukkit.getServer().getOnlinePlayers().size() + "§7/§c" + Bukkit.getServer().getMaxPlayers(), 7);
 
-                if (player.hasPermission("minipixel.admin")) {
+                if (player.hasPermission("smp.admin")) {
                     setScore("§7Rang: §4Administrator", 9);
 
-                } else if (player.hasPermission("minipixel.mod")){
+                } else if (player.hasPermission("smsp.mod")){
                     setScore("§7Rang: §bModerator", 9);
 
-                } else if (player.hasPermission("minipixel.dev")) {
+                } else if (player.hasPermission("smp.dev")) {
                     setScore("§7Rang: §aDeveloper", 9);
 
-                } else if (player.hasPermission("minipixel.sup")){
+                } else if (player.hasPermission("smp.sup")){
                     setScore("§7Rang: §9Supporter", 9);
 
-                } else if (player.hasPermission("minipixel.builder")) {
+                } else if (player.hasPermission("smp.builder")) {
                     setScore("§7Rang: §eBuilder", 9);
 
-                } else if (player.hasPermission("minipixel.vip+")) {
+                } else if (player.hasPermission("smp.vip+")) {
                     setScore("§7Rang: §dVIP§6+", 9);
 
-                } else if (player.hasPermission("minipixel.vip")){
+                } else if (player.hasPermission("smp.vip")){
                     setScore("§7Rang: §dVIP", 9);
 
                 } else {
