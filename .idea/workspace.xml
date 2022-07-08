@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="243b781f-ee93-488d-8805-48089e1b317c" name="Changes" comment=":zap: updated from idea">
+    <list default="true" id="243b781f-ee93-488d-8805-48089e1b317c" name="Changes" comment=":bug: resolved error of error message when item was null">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Listener/ClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Listener/ClickListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Scoreboard/DefaultScoreboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Scoreboard/DefaultScoreboard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,8 @@
       <workItem from="1657226010675" duration="1462000" />
       <workItem from="1657231317162" duration="139000" />
       <workItem from="1657235574854" duration="1322000" />
-      <workItem from="1657277806500" duration="306000" />
+      <workItem from="1657277806500" duration="596000" />
+      <workItem from="1657282654410" duration="1357000" />
     </task>
     <task id="LOCAL-00001" summary=":memo: refactored main directory name">
       <created>1656716652716</created>
@@ -310,7 +309,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657236757931</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary=":zap: updated from idea">
+      <created>1657278219235</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1657278219235</updated>
+    </task>
+    <task id="LOCAL-00036" summary=":passport_control: updated permissions">
+      <created>1657278241693</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1657278241693</updated>
+    </task>
+    <task id="LOCAL-00037" summary=":bug: resolved error of error message when item was null">
+      <created>1657278341200</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1657278341200</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,8 +348,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":arrow_up: changed api version in plugin.yml (#4)" />
-    <MESSAGE value=":fire: removed old imports" />
     <MESSAGE value=":passport_control: updated chat permissions" />
     <MESSAGE value=":passport_control: updated scoreboard permissions" />
     <MESSAGE value=":passport_control: updated command permissions" />
@@ -353,6 +371,8 @@
     <MESSAGE value=":sparkles: created ItemManager.java" />
     <MESSAGE value=":arrow_up: imported ItemManager to Main.java" />
     <MESSAGE value=":zap: updated from idea" />
-    <option name="LAST_COMMIT_MESSAGE" value=":zap: updated from idea" />
+    <MESSAGE value=":passport_control: updated permissions" />
+    <MESSAGE value=":bug: resolved error of error message when item was null" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bug: resolved error of error message when item was null" />
   </component>
 </project>

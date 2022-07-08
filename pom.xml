@@ -6,7 +6,7 @@
 
     <groupId>earth.aaronwagner.smp</groupId>
     <artifactId>smp-server</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>v2.0.0</version>
     <packaging>jar</packaging>
 
     <name>smp-server</name>
