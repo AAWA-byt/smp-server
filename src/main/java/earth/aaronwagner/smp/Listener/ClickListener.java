@@ -49,6 +49,8 @@ public class ClickListener implements Listener {
                 player.closeInventory();
                 player.updateInventory();
 
+            } else if (e.getCurrentItem() == null) {
+                return;
             }
         }
     }
