@@ -97,7 +97,7 @@ public class DefaultScoreboard extends ScoreboardBuilder {
                 if (player.hasPermission("smp.admin")) {
                     setScore("§7Rang: §4Administrator", 9);
 
-                } else if (player.hasPermission("smsp.mod")){
+                } else if (player.hasPermission("smp.mod")){
                     setScore("§7Rang: §bModerator", 9);
 
                 } else if (player.hasPermission("smp.dev")) {
