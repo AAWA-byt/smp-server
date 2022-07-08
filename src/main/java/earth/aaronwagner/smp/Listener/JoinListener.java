@@ -1,5 +1,6 @@
 package earth.aaronwagner.smp.Listener;
 
+import earth.aaronwagner.smp.Main;
 import earth.aaronwagner.smp.Utils.JoinMethod;
 import earth.aaronwagner.smp.MessageAPI.Prefix;
 import earth.aaronwagner.smp.Scoreboard.DefaultScoreboard;
@@ -16,6 +17,9 @@ public class JoinListener implements Listener {
         Player player = e.getPlayer();
 
         new DefaultScoreboard(player, "§7§l<< §2§lSMP §7§l>>");
+        Main.getINSTANCE().getTablistManager().setTablist(player);
+        Main.getINSTANCE().getTablistManager().setPlayerTeam(player);
+        Main.getINSTANCE().getTablistManager().setAllPlayerTeams();
 
         e.setJoinMessage("§a>> §7" + player.getName());
     }

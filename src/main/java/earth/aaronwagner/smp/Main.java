@@ -13,6 +13,7 @@ import earth.aaronwagner.smp.Inventorys.Menu;
 import earth.aaronwagner.smp.Inventorys.Vip;
 import earth.aaronwagner.smp.Listener.*;
 import earth.aaronwagner.smp.MessageAPI.Prefix;
+import earth.aaronwagner.smp.Scoreboard.TablistManager;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.inventory.Inventory;
@@ -34,6 +35,8 @@ public final class Main extends JavaPlugin {
 
     private ConfigBackpacks configBackpacks;
     private BackpackManager backpackManager;
+    private TablistManager tablistManager;
+
 
     @Override
     public void onLoad() {
@@ -57,6 +60,7 @@ public final class Main extends JavaPlugin {
         backpackManager = new BackpackManager();
         warps = new ConfigWarps("warps.yml", getDataFolder());
         ItemManager.initItems();
+        tablistManager = new TablistManager();
 
         //Inventorys
         //creating inventory that are often used
@@ -138,5 +142,5 @@ public final class Main extends JavaPlugin {
     public static ConfigWarps getWarps() {return warps;}
     public static Inventory getTeleporter() {return teleporter;}
     public static Inventory getGamble() {return gamble;}
-
+    public TablistManager getTablistManager() {return tablistManager;}
 }
