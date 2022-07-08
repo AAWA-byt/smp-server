@@ -1,3 +1,7 @@
+/*
+https://github.com/DerBanko/TutorialReloaded
+ */
+
 package earth.aaronwagner.smp.Scoreboard;
 
 import earth.aaronwagner.smp.Main;

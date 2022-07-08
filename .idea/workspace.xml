@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="243b781f-ee93-488d-8805-48089e1b317c" name="Changes" comment=":bug: resolved error of error message when item was null">
+    <list default="true" id="243b781f-ee93-488d-8805-48089e1b317c" name="Changes" comment=":bookmark: updated project version to v2.0.0 (ready for release)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/earth/aaronwagner/smp/Scoreboard/TablistManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,6 +78,8 @@
       <workItem from="1657235574854" duration="1322000" />
       <workItem from="1657277806500" duration="596000" />
       <workItem from="1657282654410" duration="1357000" />
+      <workItem from="1657287699325" duration="693000" />
+      <workItem from="1657297130203" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary=":memo: refactored main directory name">
       <created>1656716652716</created>
@@ -330,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657278341200</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary=":bookmark: updated project version to v2.0.0 (ready for release)">
+      <created>1657287960837</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1657287960837</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +365,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":passport_control: updated chat permissions" />
     <MESSAGE value=":passport_control: updated scoreboard permissions" />
     <MESSAGE value=":passport_control: updated command permissions" />
     <MESSAGE value=":passport_control: updated warp command permissions" />
@@ -373,6 +389,7 @@
     <MESSAGE value=":zap: updated from idea" />
     <MESSAGE value=":passport_control: updated permissions" />
     <MESSAGE value=":bug: resolved error of error message when item was null" />
-    <option name="LAST_COMMIT_MESSAGE" value=":bug: resolved error of error message when item was null" />
+    <MESSAGE value=":bookmark: updated project version to v2.0.0 (ready for release)" />
+    <option name="LAST_COMMIT_MESSAGE" value=":bookmark: updated project version to v2.0.0 (ready for release)" />
   </component>
 </project>

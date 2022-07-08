@@ -1,3 +1,7 @@
+/*
+https://github.com/DerBanko/TutorialReloaded
+ */
+
 package earth.aaronwagner.smp.Configs;
 
 import earth.aaronwagner.smp.Main;
