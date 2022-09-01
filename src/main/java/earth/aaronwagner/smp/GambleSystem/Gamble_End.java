@@ -24,7 +24,7 @@ public class Gamble_End {
 
     public void gamble(Player player) {
 
-        ItemStack fee = new ItemStack(Material.DIAMOND, 20);
+        ItemStack fee = new ItemStack(Material.DIAMOND, 12);
         if (player.getInventory().getItemInMainHand().equals(fee)) {
             player.getInventory().removeItem(player.getInventory().getItemInMainHand());
             this.spin(player);
