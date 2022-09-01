@@ -24,7 +24,7 @@ public class Gamble_Nether {
 
     public void gamble(Player player) {
 
-        ItemStack fee = new ItemStack(Material.DIAMOND, 12);
+        ItemStack fee = new ItemStack(Material.DIAMOND, 10);
         if (player.getInventory().getItemInMainHand().equals(fee)) {
             player.getInventory().removeItem(player.getInventory().getItemInMainHand());
             this.spin(player);
