@@ -81,38 +81,28 @@ public final class Main extends JavaPlugin {
         log(ChatColor.RED + "PlaceholderAPI wird geladen...");
         log("");
 
-        if (Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
+        log(ChatColor.RED + "Die Listener werden geladen...");
+        //Listener
+        Bukkit.getPluginManager().registerEvents(new ChatListener(), this);
+        Bukkit.getPluginManager().registerEvents(new ConnectionListener(), this);
+        Bukkit.getPluginManager().registerEvents(new DeathListener(), this);
+        Bukkit.getPluginManager().registerEvents(new InventoryListener(), this);
+        Bukkit.getPluginManager().registerEvents(new JoinListener(), this);
+        Bukkit.getPluginManager().registerEvents(new QuitListener(), this);
+        Bukkit.getPluginManager().registerEvents(new ClickListener(), this);
 
-            log(ChatColor.RED + "Die Listener werden geladen...");
-            //Listener
-            Bukkit.getPluginManager().registerEvents(new ChatListener(), this);
-            Bukkit.getPluginManager().registerEvents(new ConnectionListener(), this);
-            Bukkit.getPluginManager().registerEvents(new DeathListener(), this);
-            Bukkit.getPluginManager().registerEvents(new InventoryListener(), this);
-            Bukkit.getPluginManager().registerEvents(new JoinListener(), this);
-            Bukkit.getPluginManager().registerEvents(new QuitListener(), this);
-            Bukkit.getPluginManager().registerEvents(new ClickListener(), this);
+        log(ChatColor.GREEN + "Die Listener wurden geladen!");
+        log("");
+        log(ChatColor.RED + "Die Commands werden geladen...");
+        //Commands
+        getCommand("menu").setExecutor(new MenuCommand());
+        getCommand("backpack").setExecutor(new BackpackCommand());
+        getCommand("warp").setExecutor(new WarpCommand());
+        getCommand("enderchest").setExecutor(new EnderchestCommand());
 
-            log(ChatColor.GREEN + "Die Listener wurden geladen!");
-            log("");
-            log(ChatColor.RED + "Die Commands werden geladen...");
-            //Commands
-            getCommand("menu").setExecutor(new MenuCommand());
-            getCommand("backpack").setExecutor(new BackpackCommand());
-            getCommand("warp").setExecutor(new WarpCommand());
-            getCommand("enderchest").setExecutor(new EnderchestCommand());
+        log(ChatColor.GREEN + "Die Commands wurden geladen!");
+        log("");
 
-            log(ChatColor.GREEN + "Die Commands wurden geladen!");
-            log("");
-
-        } else {
-            /*
-             * We inform about the fact that PlaceholderAPI isn't installed and 101then
-             * disable this plugin to prevent issues.
-             */
-            log("Could not find PlaceholderAPI! This plugin is required.");
-            Bukkit.getPluginManager().disablePlugin(this);
-        }
         log(ChatColor.GREEN + "PlaceholderAPI wurde geladen...");
         log("");
         log("");

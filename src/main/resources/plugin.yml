@@ -5,7 +5,6 @@ api-version: 1.19
 authors: [ AAWA-byt ]
 description: smp server plugin
 website: aaronwagner.earth
-dependencies: PlaceholderAPI
 
 commands:
 
