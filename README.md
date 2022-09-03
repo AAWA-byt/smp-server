@@ -65,6 +65,6 @@ If you should have a feature request, please create an [issue](https://github.co
 
 
 # License
-This project is licensed under the Apache License 2.0 - see the [LICENSE.md](https://github.com/AAWA-byt/smp-server/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/AAWA-byt/smp-server/blob/main/LICENSE) file for details.
 
 
