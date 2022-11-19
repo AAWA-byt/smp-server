@@ -6,20 +6,6 @@ import org.bukkit.inventory.Inventory;
 
 public class JoinMethod {
 
-    public void firstJoin(Player player) {
-
-    }
-
-    public void defaultJoin(Player player) {
-
-
-    }
-
-    public void helpmessage(Player player) {
-
-
-    }
-
     public void equip(Player player) {
 
         Inventory inventory = player.getInventory();
