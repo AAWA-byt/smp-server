@@ -55,7 +55,7 @@ This project is a Java plugin for a single survival server (SMP) with many diffe
 As a permission system I recommend [LuckPerms](https://luckperms.net).
 
 ## Help
-If there should be any problems please leave an [issue](https://github.com/AAWA-byt/smp-server/issues) or send me an <a href="mailto:everything@aaronwagner.de">email</a> and I will look forward to help you.
+If there should be any problems please leave an [issue](https://github.com/AAWA-byt/smp-server/issues) and I will look forward to help you.
 
 ## Feature Request
 If you should have a feature request, please create an [issue](https://github.com/AAWA-byt/smp-server/issues) where your describe your idea and I will decide if I wil work on it or not.
